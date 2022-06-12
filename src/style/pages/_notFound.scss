@@ -1,9 +1,22 @@
+@import "../component/homeNavigation";
+
+.notFoundHeader{
+    -webkit-box-shadow: 0px 1px 15px -1px rgba(0,0,0,0.35); 
+    box-shadow: 0px 1px 15px -1px rgba(0,0,0,0.35);
+    @include homeNavigation;
+}
+
 .notFound{
     display: flex;
     justify-content: center;
-    margin-top: 15rem;
     color: #0396A6;
     font-size: 80px;
+    flex-direction: column;
+    align-items: center;
+    height: calc(100vh - 78.7px);
+    h1{
+        text-align: center;
+    }
 
     @media screen and (max-width: 767px) {
         font-size: 45px;
