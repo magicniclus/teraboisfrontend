@@ -14,11 +14,11 @@ const NotFound = () => {
      * with a h1 element */
     return (
         <>
-            <header>
+            <header className='notFoundHeader'>
                 <HomeNavigation url="" />
             </header>
             <main className="notFound">
-                <h1>Page 404</h1>
+                <h1>Oups, Page 404 <br/> :(</h1>
             </main>
         </>
     );
