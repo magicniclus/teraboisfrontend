@@ -1,5 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPhone } from '@fortawesome/free-solid-svg-icons'
 
 /**
  * It returns a footer with a div with a class of footerContainer, which contains a div with a class of
@@ -11,6 +13,19 @@ import { NavLink } from 'react-router-dom';
  * The third NavLink has a to attribute of "/
  */
 const Footer = () => {
+    const tel = "0649231380";
+
+    const showPhone = ()=>{
+        return(
+            <div className='phoneContainer'>
+                <a title="appeler" href={"tel:"+tel}>
+                    <FontAwesomeIcon icon={faPhone} color="lime"/>
+                    <span>{tel}</span>
+                </a>
+            </div>
+        )
+    }
+
     /* Returning a footer with a div with a class of footerContainer, which contains a div with a class
     of
      * footerContainerLeft, which contains a NavLink to the conditions générales de vente, a NavLink
@@ -30,7 +45,12 @@ const Footer = () => {
                         <p>espace client</p>
                     </NavLink>
                 </div>
-                <NavLink to="/"><img src="./img/logo.png" alt="logo" /></NavLink>
+                <div className='footerContainerRight'>
+                    <NavLink to="/"><img src="./img/logo.png" alt="logo" /></NavLink>
+                {
+                    tel !== undefined ? showPhone() : null
+                }
+                </div>
             </div>
         </footer>
     );
