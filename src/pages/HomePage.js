@@ -24,7 +24,6 @@ const HomePage = () => {
         // start: "top center",
         toggleActions: "play none none reverse",
     })
-
     // let t1 = gsap.timeline({delay: 0.3})
 
     /* It's a hook that allows you to perform side effects in function components. */
@@ -36,15 +35,20 @@ const HomePage = () => {
             autoAlpha: 1,
             display: "flex",
             height: "4.5rem",
-            // opacity: 1,
             ease: "back.out(0.3)",
             scrollTrigger: {
                 trigger: ".titleAndText",
-                // markers: true,
                 start: "bottom top"
             }
         })
+        gsap.fromTo(".titleAndText", {x: 3000}, {duration:0.3, x: 0, clearProps: "x", ease: "back.out(0.3)"})
+        gsap.fromTo(".specialiste", {x: -3000}, { duration: 0.3, x:0, clearProps:'x', ease: "back.out(0.3)"})
+        gsap.fromTo(".homePageHeader", {opacity: 0}, {delay:0.5, duration:0.3, opacity: 1, ease: "back.out(0.3)"})
+        gsap.fromTo(".bottomContainerTitle", {x: 3000}, {duration:0.3, x: 0, clearProps: "x", ease: "back.out(0.3)"})
+        gsap.fromTo(".avantageContainer", {x: 3000}, {duration:0.3, x: 0, clearProps: "x", ease: "back.out(0.3)"})
     }, [])
+
+
 
    /* It's a function that returns a JSX element */
     return (
@@ -77,7 +81,7 @@ const HomePage = () => {
                     </div>
                 </section>
                 <section className="bottomContainer">
-                    <h2>Pourquoi bien faire isoler son logement ?</h2>
+                    <h2 className='bottomContainerTitle'>Pourquoi bien faire isoler son logement ?</h2>
                     <div className="avantageContainer">
                         <div className="checkUn check">
                             <FontAwesomeIcon icon={faCircleCheck} /> 

@@ -23,6 +23,8 @@ const HomeNavigation = (props) => {
     /* Getting the value of the urlValue prop that is passed to the component. */
     const urlValue = props.urlValue;
 
+    const phoneShake = createRef()
+
 
     /* Creating a state variable called inClientSpace and a function called setInClientSpace. */
     const [inClientSpace, setInClientSpace] = useState(false)
@@ -44,18 +46,13 @@ const HomeNavigation = (props) => {
         return "btnNav " + btn.split(" ").join("").toLowerCase().replace(/[éèê]/g,"e")  
     }
 
-    /**
-     * If the user is in the client space, return the class "space clicked" otherwise return the class
-     * "space"
-     * @returns a string.
-     */
-    const changeUserSpaceClass = () =>{
-        return inClientSpace ? "space clicked" : "space"
+    const shakeFunction = ()=>{
+            gsap.fromTo(".phoneContainer", {x: -2}, {x:2, duration: 0.01, ease: "back.out(0.3)", repeat: 30})
     }
 
     const showPhone = ()=>{
         return(
-            <div className='phoneContainer'>
+            <div ref={phoneShake} className='phoneContainer' onMouseOver={shakeFunction}>
                 <a title="Appeler" href={"tel:"+tel}>
                     <FontAwesomeIcon icon={faPhone} color="lime"/>
                     <span>{tel}</span>
@@ -63,6 +60,10 @@ const HomeNavigation = (props) => {
             </div>
         )
     }
+
+    useEffect(()=>{
+        
+    }, [])
 
     /* Returning a div with a className of "nav" which contains two divs, one with a className of
      * "navLeft" and the other with a className of "navRight". The first div contains a NavLink to
