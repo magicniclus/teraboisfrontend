@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { createRef, useEffect } from 'react';
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import Button from './Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import {gsap} from 'gsap';
+
 
 /**
  * It returns a div with a className of "nav" which contains two divs, one with a className of
@@ -16,11 +18,16 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons'
 const HomeNavigation = (props) => {
     const tel = "0649231380";
 
+    const activeEffect = props.gsap;
+
     /* Getting the value of the urlValue prop that is passed to the component. */
     const urlValue = props.urlValue;
 
+
     /* Creating a state variable called inClientSpace and a function called setInClientSpace. */
     const [inClientSpace, setInClientSpace] = useState(false)
+
+    const visibility = props.visibility !== undefined ? props.visibility : true;
 
     /**
      * If the urlValue is undefined, return "btnNav ". If the urlValue is equal to the button's name,
@@ -49,7 +56,7 @@ const HomeNavigation = (props) => {
     const showPhone = ()=>{
         return(
             <div className='phoneContainer'>
-                <a title="appeler" href={"tel:"+tel}>
+                <a title="Appeler" href={"tel:"+tel}>
                     <FontAwesomeIcon icon={faPhone} color="lime"/>
                     <span>{tel}</span>
                 </a>
@@ -64,7 +71,7 @@ const HomeNavigation = (props) => {
     about page.
      * The second div contains a Button component and a NavLink to the connection page */
     return (
-        <div className="nav">
+        <div className={visibility ? "nav" : "nav hidden"}>
             <div className="navLeft">
                 <NavLink to="/accueil"><img src="./img/logo.png" alt="logo" /></NavLink>
                 <nav>
