@@ -29,6 +29,7 @@ const HomePage = () => {
     /* It's a hook that allows you to perform side effects in function components. */
     useEffect(() => {
         document.title = "TeraBois | Accueil"
+        window.scrollTo(0, 0); 
         gsap.to(navBar.current, {
             duration: 0.2,
             y: 0,

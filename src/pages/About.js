@@ -28,7 +28,8 @@ const About = () => {
 
     /* It's a function from react that allow to change the title of the page. */
     useEffect (()=>{
-        document.title = "TeraBois | Nos Préstations"    /* It's a hook that allows you to perform side effects in function components. */
+        document.title = "TeraBois | Nos Préstations"    
+        window.scrollTo(0, 0);   /* It's a hook that allows you to perform side effects in function components. */
         gsap.to(navBar.current, {
             duration: 0.2,
             y: 0,
