@@ -18,7 +18,7 @@ const Footer = () => {
     const showPhone = ()=>{
         return(
             <div className='phoneContainer'>
-                <a title="appeler" href={"tel:"+tel}>
+                <a title="Appeler" href={"tel:"+tel}>
                     <FontAwesomeIcon icon={faPhone} color="lime"/>
                     <span>{tel}</span>
                 </a>
