@@ -13,6 +13,25 @@
     flex-direction: column;
     align-items: center;
     min-height: calc(100vh + 155px);
+    position: relative;
+    .headerFixed{
+        position: fixed;
+        box-shadow: none;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 4.5rem;
+        background-color: white;
+        height: 0;
+        display: none;
+        transform: translateY(-50%);
+        opacity: 0;
+        @include homeNavigation; 
+        box-shadow: 0px 1px 15px -1px rgb(0 0 0 / 12%);
+    }
 
     .containerTop{
         width: 100%;
@@ -326,7 +345,7 @@
         }
     }
 
-    a{
-        margin-bottom: 1rem;
-    }
+    // a{
+    //     margin-bottom: 1rem;
+    // }
 }

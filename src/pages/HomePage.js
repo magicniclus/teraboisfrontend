@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { createRef, useEffect } from 'react';
 import HomeNavigation from '../component/HomeNavigation';
 import { NavLink } from 'react-router-dom';
 import Button from "../component/Button"
@@ -7,17 +7,43 @@ import {faCircleCheck } from '@fortawesome/free-solid-svg-icons';
 import DropDown from '../component/DropDown';
 import TitleAndText from '../component/TitleAndText';
 import ImageAndText from '../component/ImageAndText';
-import {useEffect} from 'react';
+import {gsap} from 'gsap';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
+gsap.registerPlugin(ScrollTrigger);
 /**
  * It's a function that returns a JSX element
  * @returns The HomePage component is being returned.
  */
 const HomePage = () => {
 
+    /* It's a hook that allows us to create a reference to a DOM element. */
+    const navBar = createRef()
+
+    ScrollTrigger.defaults({
+        // start: "top center",
+        toggleActions: "play none none reverse",
+    })
+
+    // let t1 = gsap.timeline({delay: 0.3})
+
     /* It's a hook that allows you to perform side effects in function components. */
     useEffect(() => {
         document.title = "TeraBois | Accueil"
+        gsap.to(navBar.current, {
+            duration: 0.2,
+            y: 0,
+            autoAlpha: 1,
+            display: "flex",
+            height: "4.5rem",
+            // opacity: 1,
+            ease: "back.out(0.3)",
+            scrollTrigger: {
+                trigger: ".titleAndText",
+                // markers: true,
+                start: "bottom top"
+            }
+        })
     }, [])
 
    /* It's a function that returns a JSX element */
@@ -27,6 +53,9 @@ const HomePage = () => {
                 <HomeNavigation urlValue='accueil' />
             </header>
             <main className="homePage">
+                <div className='headerFixed' ref={navBar}>
+                    <HomeNavigation visibility={false} gsap={true} />
+                </div>
                 <div className="containerTop">
                     <p className="littleConnect">Déjà un projet avec nous ? <br/> <NavLink to='/connection'>Connectez-vous</NavLink></p>
                     <TitleAndText title="Maison TeraBois" text='“Ex commodi voluptatem eos rerum quasi et quis tenetur et iure voluptatem ea quis dolorem. 
