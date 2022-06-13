@@ -14,6 +14,49 @@
     flex-direction: column;
     align-items: center;
     min-height: calc(100vh + 155px);
+    position: relative;
+    .headerFixed{
+        position: fixed;
+        box-shadow: none;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 4.5rem;
+        background-color: white;
+        height: 0;
+        display: none;
+        transform: translateY(-50%);
+        opacity: 0;
+        box-shadow: 0px 1px 15px -1px rgb(0 0 0 / 12%);
+        @include homeNavigation; 
+        .nav{
+            .navLeft{
+                // display: flex;
+                a{
+                    display:initial;
+                    font-weight: 400;
+                    margin-top: 0;
+                }
+                nav{
+                    font-weight: 400;
+                }
+            }
+            .navRight{
+                .phoneContainer{
+                    a{
+                        font-weight: 400;
+                    }
+                }
+                a{
+                    display: block;
+                    margin-top: 0;
+                }
+            }
+        }
+    }
 
     .littleConnect{
         margin-left: 1rem;

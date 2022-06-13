@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { createRef, useEffect } from 'react';
 import HomeNavigation from '../component/HomeNavigation';
 import TitleAndText from '../component/TitleAndText';
 import ImageAndText from '../component/ImageAndText';
 import Button from '../component/Button';
 import { NavLink } from 'react-router-dom'; 
 import {mpl} from 'my-personnal-library';
-import {useEffect} from 'react';
+import {gsap} from 'gsap';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 /**
  * It's a function that returns a JSX element.
@@ -13,13 +16,33 @@ import {useEffect} from 'react';
  */
 const About = () => {
 
+    /* It's a hook that allows us to create a reference to a DOM element. */
+    const navBar = createRef()
+
+    ScrollTrigger.defaults({
+        toggleActions: "play none none reverse",
+    })
+
     /* It's a function from my personnal library. It's a function that return the sum of two numbers. */
     mpl(2, 3)
 
     /* It's a function from react that allow to change the title of the page. */
     useEffect (()=>{
-        document.title = "TeraBois | Nos Préstations"
-    })
+        document.title = "TeraBois | Nos Préstations"    /* It's a hook that allows you to perform side effects in function components. */
+        gsap.to(navBar.current, {
+            duration: 0.2,
+            y: 0,
+            autoAlpha: 1,
+            display: "flex",
+            height: "4.5rem",
+            ease: "back.out(0.3)",
+            scrollTrigger: {
+                trigger: ".specialisteLeft",
+                start: "top top",
+                // markers: true
+            }
+        })
+    }, [])
 
     /* It's a function that returns a JSX element. */
     return (
@@ -28,6 +51,9 @@ const About = () => {
                 <HomeNavigation urlValue='about' />
             </header>
             <main className="about">
+                <div className='headerFixed' ref={navBar}>
+                    <HomeNavigation visibility={false} gsap={true} />
+                </div>
                 <p className="littleConnect">Déjà un projet avec nous ? <br/> <NavLink to='/connection'>Connectez-vous</NavLink></p>
 
                 <TitleAndText title="Nos Préstations" text="Ex commodi voluptatem eos rerum quasi et quis tenetur et iure voluptatem ea quis dolorem. 
