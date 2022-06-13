@@ -77,19 +77,15 @@
                 .phoneContainer{
                     a{
                         text-decoration: none;
-                        svg path {
-                            color: #0396A6; 
-                        }
                         svg{
                             margin-right: 0.5rem;
+                            font-size: 25px;
                             @media screen and (max-width: 895px) {
                                 margin-right: 2rem;
-                                font-size: 20px;
                             }
                         }
                         span{
-                            color: #0396A6;
-                            font-size: 18px;
+                            font-size: 25px;
                             @media screen and (max-width: 895px) {
                                 display:none;
                             }
