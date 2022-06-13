@@ -2,6 +2,8 @@ import React from 'react';
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import Button from './Button';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPhone } from '@fortawesome/free-solid-svg-icons'
 
 /**
  * It returns a div with a className of "nav" which contains two divs, one with a className of
@@ -12,6 +14,8 @@ import Button from './Button';
  * @returns A div with a class of nav.
  */
 const HomeNavigation = (props) => {
+    const tel = "0649231380";
+
     /* Getting the value of the urlValue prop that is passed to the component. */
     const urlValue = props.urlValue;
 
@@ -42,6 +46,17 @@ const HomeNavigation = (props) => {
         return inClientSpace ? "space clicked" : "space"
     }
 
+    const showPhone = ()=>{
+        return(
+            <div className='phoneContainer'>
+                <a title="appeler" href={"tel:"+tel}>
+                    <FontAwesomeIcon icon={faPhone} color="lime"/>
+                    <span>{tel}</span>
+                </a>
+            </div>
+        )
+    }
+
     /* Returning a div with a className of "nav" which contains two divs, one with a className of
      * "navLeft" and the other with a className of "navRight". The first div contains a NavLink to
     the home
@@ -58,6 +73,9 @@ const HomeNavigation = (props) => {
                 </nav>
             </div>
             <div className="navRight">
+                {
+                    tel !== undefined ? showPhone() : null
+                }
                 <Button link="/nous-contacter" value="Isoler mon logement" addClass="node"/>
                 <NavLink to="/connection" className="signIn" onClick={()=>setInClientSpace(true)}>
                     <div className="imgContainer" >
