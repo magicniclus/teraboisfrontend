@@ -1,10 +1,9 @@
 import React from 'react';
 import { useState, useEffect, createRef } from 'react';
 import {useDispatch, useSelector} from 'react-redux';
-import { NavLink, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import {gsap} from 'gsap';
 import { showAllProspect } from '../redux/actions/action';
-import { upperCaseFirstLatter } from '../utils/upperCaseFirstLatter';
 import ProspectArray from '../component/prospectArray/ProspectArray'
 import AddPropsectInAdminPage from '../component/AddPropsectInAdminPage';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
