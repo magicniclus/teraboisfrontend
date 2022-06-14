@@ -47,7 +47,7 @@ const HomeNavigation = (props) => {
     }
 
     const shakeFunction = ()=>{
-            gsap.fromTo(".phoneContainer", {x: -2}, {x:2, duration: 0.01, ease: "back.out(0.3)", repeat: 30})
+            // gsap.fromTo(".phoneContainer", {x: -2}, {x:2, duration: 0.01, ease: "back.out(0.3)", repeat: 30})
     }
 
     const showPhone = ()=>{
