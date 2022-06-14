@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import DropDown from '../component/DropDown';
 import Formulaire from '../component/formulaire/Formulaire';
@@ -10,7 +10,9 @@ import { prospectIsNotValid, removeProspect } from '../redux/actions/action';
 import { useState } from 'react';
 import { whatPage } from '../utils/titleManager';
 
-const LandingPage = () => {
+const LandingPage = () => {useEffect(() => {
+    window.scrollTo(0, 0); 
+}, [])
 
     /* It's a hook that allows you to dispatch actions to the Redux store. */
     const dispatch = useDispatch()
