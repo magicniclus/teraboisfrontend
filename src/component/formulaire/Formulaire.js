@@ -109,7 +109,7 @@ const Formulaire = () => {
                 <img src="./img/SVG/chevron-left-blue.png" alt="chevron right"/>
                 retour
             </button>
-            <div className={title === "Prenons rendez-vous" ? "question lastQuestion" : "question"}>
+            <div className={title === "Prenons rendez-vous" ? "lastQuestion" : "question"}>
                 <h2>{title}</h2>
                 <ProgressLign progress={calculProgressBar(state.valueOfArray, maxArray)} />
             </div>

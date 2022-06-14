@@ -345,12 +345,6 @@
                         flex-direction: column;
                         align-items: center;
                         justify-content: space-between;
-                        opacity: 0;
-                        animation-name: apparitionText;
-                        animation-timing-function:ease-out;
-                        animation-duration: 0.3s;
-                        animation-delay: 0.2s;
-                        animation-fill-mode: forwards;
                         @media screen and (max-width: 425px) {
                             margin-top: 20px;
                         }
@@ -634,11 +628,50 @@
                     }
                     .lastQuestion{
                         height: 12%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        opacity: 0;
+                        justify-content: space-between;
                         animation-name: apparitionText;
                         animation-duration: 0.3s;
                         animation-timing-function: ease-out;
                         animation-delay: 1s;
                         animation-fill-mode: forwards;
+                        @media screen and (max-width: 425px) {
+                            margin-top: 20px;
+                        }
+                        h2{
+                            font-size: 35px;
+                            margin-top: 5px;
+                            font-weight: bold;
+                            // color: #04588c;
+                            @media screen and (min-width: 2200px) {
+                                font-size: 58px;
+                            }
+                            @media screen and (max-width: 425px) {
+                                margin-bottom: 15px;
+                            }
+                        }
+                        .progressLign{
+                            max-width: 80%;
+                            height: 9px;
+                            width: 446px;
+                            // margin-top: 15px;
+                            background-color: #C4C4C4;
+                            border-radius: 10px;
+                            @media screen and (min-width: 2200px) {
+                                width: 550px;
+                            }
+                            @media screen and (max-width: 425px) {
+                                max-width: 90%;
+                            }
+                            .progressLignIn{
+                                background-color: #0396A6;
+                                border-radius: 10px;
+                                height: 100%;
+                            }
+                        }
                     }
                     form{
                         height: 80%;
