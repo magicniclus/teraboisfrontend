@@ -29,7 +29,7 @@ const HomePage = () => {
     /* It's a hook that allows you to perform side effects in function components. */
     useEffect(() => {
         document.title = "TeraBois | Accueil"
-        window.scrollTo(0, 0); 
+        window.scrollTo(0, 80); 
         gsap.to(navBar.current, {
             duration: 0.2,
             y: 0,
@@ -39,7 +39,7 @@ const HomePage = () => {
             ease: "back.out(0.3)",
             scrollTrigger: {
                 trigger: ".titleAndText",
-                start: "bottom top"
+                start: "bottom top+=75"
             }
         })
         gsap.fromTo(".titleAndText", {x: 3000}, {duration:0.3, x: 0, clearProps: "x", ease: "back.out(0.3)"})
