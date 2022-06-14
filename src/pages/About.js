@@ -31,15 +31,15 @@ const About = () => {
         document.title = "TeraBois | Nos Préstations"    
         window.scrollTo(0, 0);   /* It's a hook that allows you to perform side effects in function components. */
         gsap.to(navBar.current, {
-            duration: 0.2,
+            duration: 0.3,
             y: 0,
             autoAlpha: 1,
             display: "flex",
             height: "4.5rem",
             ease: "back.out(0.3)",
             scrollTrigger: {
-                trigger: ".specialisteLeft",
-                start: "top top",
+                trigger: ".titleAndText",
+                start: "bottom top+=76"
                 // markers: true
             }
         })
