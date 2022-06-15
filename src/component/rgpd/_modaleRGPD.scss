@@ -1,0 +1,24 @@
+.modaleRGPD{
+    width: 100vw;
+    min-height: 100vh;
+    position: fixed;
+    background-color: RGBA(255,255,255,0.15);
+    z-index: 100;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    .modale{
+        height: 20vh;
+        width: 30vw;
+        background-color: #C2C2C2;
+        border: 2px solid white;
+        border-radius: 10px;
+        position: relative;
+        .fa-xmark{
+            position: absolute;
+            height: 1.5rem;
+            top: 7%;
+            right: 4%;
+        }
+    }
+}
