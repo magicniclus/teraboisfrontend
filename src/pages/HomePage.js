@@ -9,6 +9,7 @@ import TitleAndText from '../component/TitleAndText';
 import ImageAndText from '../component/ImageAndText';
 import {gsap} from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import ModaleRGPD from '../component/rgpd/ModaleRGPD';
 
 gsap.registerPlugin(ScrollTrigger);
 /**
