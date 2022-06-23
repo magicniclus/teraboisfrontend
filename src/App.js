@@ -9,7 +9,7 @@ import ConnectionPage from "./pages/ConnectionPage";
 import AdminPage from "./pages/AdminPage";
 import { useState } from "react";
 import Politique from "./pages/Politique";
-import ModaleRGPD from "./component/rgpd/ModaleRGPD";
+import Cookies from "./component/cookies/Cookies";
 
 /**
  * A function that returns a component.
@@ -25,7 +25,6 @@ function App() {
   /* It's a hook that allows you to use state in a functional component. */
   return (
     <div className="App">
-    {/* <ModaleRGPD /> */}
       <BrowserRouter >
         <Routes>
           <Route path="/accueil" element={<HomePage />}/>
@@ -38,6 +37,9 @@ function App() {
           <Route path="/*" element={<NotFound />}/>
         </Routes>
         <Footer />  
+        {
+          localStorage.cookies === "false" ? <Cookies /> : null
+        } 
       </BrowserRouter>
     </div>
   );
