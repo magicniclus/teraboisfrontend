@@ -18,7 +18,7 @@ export function handleTitle(){
             if(ok){
                 document.title = "Vous y etes presque !"
             }else{
-                document.title = "🔥🔥🔥Isolation 1€"
+                document.title = "☀️☀️Isolation 1€"
             }
         } else if(window.location.pathname === "/nous-contacter"){
             document.title = "TeraBois | Rendez-vous";
