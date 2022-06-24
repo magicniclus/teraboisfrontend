@@ -25,7 +25,8 @@ const initState = {
         passeword: "",
         token: localStorage.jwt
     },
-    prospect: []
+    prospect: [],
+    comments: []
 }
 
 const reducer = (state = initState, action) => {
@@ -231,6 +232,12 @@ const reducer = (state = initState, action) => {
             return{
                 ...state,
                 arrayLoading: false
+            }   
+            
+        case "addComments":
+            return{
+                ...state,
+                comments: []
             }    
 
         default: return state
