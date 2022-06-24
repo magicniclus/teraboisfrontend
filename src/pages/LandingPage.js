@@ -147,7 +147,7 @@ const LandingPage = () => {useEffect(() => {
                             <div className={state.valueOfArray === 6 ? "containerBottom lastContainerBottom": "containerBottom" } >
                                 <h3>+ de <span>10</span> ans <br /> d'experience</h3>
                                 <h3>RDV en <br /><span>24</span>/<span>48h</span></h3>
-                                <h3>+ de 3000 <br />réalisations</h3>
+                                <h3>+ de <span>3000 </span><br />réalisations</h3>
                             </div>
                         </div>
                     </section>
