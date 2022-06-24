@@ -9,7 +9,7 @@ import TitleAndText from '../component/TitleAndText';
 import ImageAndText from '../component/ImageAndText';
 import {gsap} from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import ModaleRGPD from '../component/rgpd/ModaleRGPD';
+import Comments from '../component/comments/Comments';
 
 gsap.registerPlugin(ScrollTrigger);
 /**
@@ -121,6 +121,9 @@ const HomePage = () => {
                             <p>SAV 7/7j</p>
                         </div>
                     </div>
+                </section>
+                <section className='showComments'>
+                    <Comments />
                 </section>
             </main>
         </>
