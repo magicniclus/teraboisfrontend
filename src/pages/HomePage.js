@@ -43,11 +43,11 @@ const HomePage = () => {
                 start: "bottom top+=76"
             }
         })
-        gsap.fromTo(".titleAndText", {x: 3000}, {duration:0.3, x: 0, clearProps: "x", ease: "back.out(0.3)"})
-        gsap.fromTo(".specialiste", {x: -3000}, { duration: 0.3, x:0, clearProps:'x', ease: "back.out(0.3)"})
-        gsap.fromTo(".homePageHeader", {opacity: 0}, {delay:0.5, duration:0.3, opacity: 1, ease: "back.out(0.3)"})
-        gsap.fromTo(".bottomContainerTitle", {x: 3000}, {duration:0.3, x: 0, clearProps: "x", ease: "back.out(0.3)"})
-        gsap.fromTo(".avantageContainer", {x: 3000}, {duration:0.3, x: 0, clearProps: "x", ease: "back.out(0.3)"})
+        gsap.fromTo(".titleAndText", {x: 3000}, {duration:1, x: 0, clearProps: "x", ease: "back.out(0.3)"})
+        gsap.fromTo(".specialiste", {opacity: 0}, { duration: 1, delay:0.7, opacity: 1, clearProps:'x', ease: "back.out"})
+        gsap.fromTo(".homePageHeader", {opacity: 0}, {delay:0.5, duration:1, opacity: 1, ease: "back.out(0.3)"})
+        gsap.fromTo(".bottomContainerTitle", {x: 3000}, {duration:1, x: 0, clearProps: "x", ease: "back.out(0.3)"})
+        gsap.fromTo(".avantageContainer", {x: 3000}, {duration:1, x: 0, clearProps: "x", ease: "back.out(0.3)"})
     }, [])
 
 
@@ -64,12 +64,10 @@ const HomePage = () => {
                 </div>
                 <div className="containerTop">
                     <p className="littleConnect">Déjà un projet avec nous ? <br/> <NavLink to='/connection'>Connectez-vous</NavLink></p>
-                    <TitleAndText title="Maison TeraBois" text='“Ex commodi voluptatem eos rerum quasi et quis tenetur et iure voluptatem ea quis dolorem. 
-                        Ut laudantium optio et odit ipsam id reprehenderit voluptatem. Et internos rerum ut 
-                        perferendis reprehenderit qui beatae fuga a aspernatur excepturi.”' img="" />
+                    <TitleAndText title="Maison TeraBois" text='“Notre savoir-faire au service de votre bien-être”' img="" />
                         <Button value="Isoler mon logement" link="/nous-contacter"/>
                     <section className="specialiste">
-                        <ImageAndText addClass="imageAndText" sens="left" img="./img/photo-iti.jpg" alt="isolation interieur" title="Spécialiste de l’économie d’énergie " text= "Lorem ipsum dolor sit amet. Aut nesciunt distinctio ab quasi ipsam non voluptatem inventor aut explicabo modi eum porro beatae. Est commodi officiis et fugiat nemo sit minus voluptatum. Sed porro error aut inventore minima vel architecto velit ea accusantium officiis." />
+                        <ImageAndText addClass="imageAndText" sens="left" img="./img/test/isolation/isolationQuatre.jpeg" alt="isolation interieur" title="Spécialiste de l’économie d’énergie " text= "TeraBois, spécialiste en économie d'énergie de l'habitat depuis plus de 10 ans, TeraBois est avant tout une entreprise familiale et artisanale. Notre savoir faire nous a permis de nous piositionner comme l'entreprise leader dans son domaine." /> 
                     </section>
                     <NavLink to="/about" className="btnUn">En savoir plus</NavLink>
                 </div>    
@@ -85,9 +83,12 @@ const HomePage = () => {
                 <section className="bottomContainer">
                     <h2 className='bottomContainerTitle'>Pourquoi bien faire isoler son logement ?</h2>
                     <div className="avantageContainer">
+                        <div className="aidesContainer">
+                            <h3 className='aides'>Jusqu'à <br/> 50 000€ d'aîde</h3>
+                        </div>
                         <div className="checkUn check">
                             <FontAwesomeIcon icon={faCircleCheck} /> 
-                            <span>Factures réduites</span>
+                            <span>Facture réduite</span>
                         </div>
                         <div className="checkDeux check">
                             <FontAwesomeIcon icon={faCircleCheck} /> 
@@ -100,6 +101,10 @@ const HomePage = () => {
                         <div className="checkQuatre check">
                             <FontAwesomeIcon icon={faCircleCheck} /> 
                             <span>Participation à l'éffort écologique</span>
+                        </div>
+                        <div className="checkQuatre check">
+                            <FontAwesomeIcon icon={faCircleCheck} /> 
+                            <span>Strict respect des normes de l'État</span>
                         </div>
                             <div className="endContainer"><NavLink to="/nous-contacter" className="btnUn">Isoler mon <br/>logement</NavLink></div>
                     </div>
@@ -122,9 +127,9 @@ const HomePage = () => {
                         </div>
                     </div>
                 </section>
-                <section className='showComments'>
+                {/* <section className='showComments'>
                     <Comments />
-                </section>
+                </section> */}
             </main>
         </>
     );
