@@ -57,8 +57,7 @@ const About = () => {
                 </div>
                 <p className="littleConnect">Déjà un projet avec nous ? <br/> <NavLink to='/connection'>Connectez-vous</NavLink></p>
 
-                <TitleAndText title="Nos Préstations" text="Ex commodi voluptatem eos rerum quasi et quis tenetur et iure voluptatem ea quis dolorem. 
-                Ut laudantium optio et odit ipsam id reprehenderit voluptatem. Et internos rerum ut perferendis reprehenderit qui beatae fuga a aspernatur excepturi." />
+                <TitleAndText title="Nos Préstations" text="Toutes nos prestations sont réalisées par des équipes qualifiées spésifiquement dans leur domaine. Cette qualité de travail nous a permis d'être certifié par des organisme reconnus par l'État." />
 
                 {/* <Button link="/nous-contacter" value="En savoir plus"/> */}
     
