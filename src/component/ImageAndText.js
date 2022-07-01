@@ -32,6 +32,8 @@ const ImageAndText = (props) => {
     props object. */
     const addClass = props.addClass;
 
+    const textTwo = props.textTwo !== undefined ? props.textTwo : null;
+
     /* Checking the value of the sens property of the props object. If the value is "left", it returns
     a div with a class of "specialisteLeft specialiste". If the value is not "left", it returns a
     div with a class of "specialisteRight specialiste". */
@@ -42,6 +44,9 @@ const ImageAndText = (props) => {
                 <div className="specialisteRightContainer">
                     <h3>{title}</h3>
                     <p>{text}</p>
+                    {
+                        textTwo !== null ? <p className='textTwo'>{textTwo}</p> : null
+                    }
                 </div>
             </div>
         );
@@ -51,6 +56,9 @@ const ImageAndText = (props) => {
                 <div className="specialisteRightContainer">
                     <h3>{title}</h3>
                     <p>{text}</p>
+                    {
+                        textTwo !== null ? textTwo : null
+                    }
                 </div>
                 <img src={img} alt={alt} />
             </div>
