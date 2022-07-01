@@ -49,13 +49,6 @@ const ProspectArray = (props) => {
         addStatePropspect();
     }, [state.prospect[0]])
 
-    /* It's a hook that is called after the first render. */
-    // useEffect(() => {
-    //     // console.log(props.refreshPage);
-    //     addStatePropspect();
-    //     props.setRefreshPage(false);
-    // }, [props.refreshPage])
-
     /* It checks if the totalUser variable is not null, if it isn't, it calls the numberOfPage function
     with the totalUser variable as a parameter, and then it loops through the showNumberOfPage
     variable and sets the pagination variable with the value of the i variable. */
