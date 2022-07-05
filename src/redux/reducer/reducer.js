@@ -237,8 +237,8 @@ const reducer = (state = initState, action) => {
         case "addComments":
             return{
                 ...state,
-                comments: []
-            }    
+                comments: action.payload
+            }     
 
         default: return state
     }
