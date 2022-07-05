@@ -127,9 +127,9 @@ const HomePage = () => {
                         </div>
                     </div>
                 </section>
-                {/* <section className='showComments'>
+                <section className='showComments'>
                     <Comments />
-                </section> */}
+                </section>
             </main>
         </>
     );
