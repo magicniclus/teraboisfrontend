@@ -414,3 +414,14 @@ export function mofificationOfComments(id, text) {
     }
 }
 
+export function showMeComments() {
+    return dispatch => {
+        axios.get("http://localhost:1337/api/comments", {
+        }).then((response) => {
+            dispatch({ type: "addComments", payload: response.data.data})
+        }).catch (err => {
+                console.log(err);
+        })    
+    }
+}
+
