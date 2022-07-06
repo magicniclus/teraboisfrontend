@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import Stars from './Stars';
+import "./_cards.scss"
 
 const Cards = (props) => {
     const name=props.name;
