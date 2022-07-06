@@ -8,10 +8,15 @@ const Cards = (props) => {
 
     return (
         <>
-            <h3 className='name'>{name}</h3>
-            <p>{commentaire}</p>
-            <div className='starsContainer'>
-                <Stars stars={stars} />
+            <div className="leftContainer">
+                <div className="imgContainer"></div>
+            </div>
+            <div className="rightContainer">
+                <h3 className='name'>{name}</h3>
+                <p>{commentaire}</p>
+                <div className='starsContainer'>
+                    <Stars stars={stars} />
+                </div>
             </div>
         </>
     );
