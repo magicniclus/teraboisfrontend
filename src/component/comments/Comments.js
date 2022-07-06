@@ -31,7 +31,6 @@ const Comments = () => {
         if(state !== []){
             return(
                 <>
-                    <h4>Not loader</h4>
                     {
                         state.map((comm)=>
                         <div key={comm.id} className='cardsContainer'>
