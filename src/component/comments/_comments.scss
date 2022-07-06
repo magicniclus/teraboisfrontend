@@ -2,11 +2,23 @@
     width: 100vw;
     min-height: 30rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     h3{
         font-size: 35px;
         font-weight: 400;
         margin-top: 2rem;
         max-width: 875px;
+    }
+    .commentContainer{
+        .cardsContainer{
+            height: 315px;
+            width: 935px;
+            box-shadow: 1px 1px 4px 1px rgb(37 6 6 / 25%);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
     }
 }
