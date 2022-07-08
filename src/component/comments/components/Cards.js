@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import Stars from './Stars';
-import "./_cards.scss"
 
 const Cards = (props) => {
     const name=props.name;
@@ -9,11 +8,11 @@ const Cards = (props) => {
 
     return (
         <>
-            <div className="leftContainer">
+            <div className={"leftContainer"} >
                 <div className="imgContainer"></div>
             </div>
             <div className="rightContainer">
-                <h3 className='name'>{name}</h3>
+                <h4 className='name'>{name}</h4>
                 <p>{commentaire}</p>
                 <div className='starsContainer'>
                     <Stars stars={stars} />
