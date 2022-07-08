@@ -1,24 +1,90 @@
-.commentsContainer{
-    width: 100vw;
-    min-height: 30rem;
+.showComments{
+    width: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    h3{
-        font-size: 35px;
-        font-weight: 400;
-        margin-top: 2rem;
+    .commentsContainer{
+        width: 90%;
         max-width: 875px;
-    }
-    .commentContainer{
-        .cardsContainer{
-            height: 315px;
-            width: 935px;
-            box-shadow: 1px 1px 4px 1px rgb(37 6 6 / 25%);
+        h3{
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+            width: 50%;
+            text-align: center;  
+            font-weight: 400;
+            font-size: 35px;
             display: flex;
-            justify-content: space-around;
+            flex-direction: column;
+            justify-content: center;
             align-items: center;
+        }
+        h3::after{
+            content: "";
+            width: 90%;
+            height: 1px;
+            outline: 1px;
+            background-color: #405A5C;
+            margin-top: 2rem;
+        }
+        .commentContainer{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            .cardsContainer{    
+                box-shadow: 0px 1px 5px -1px rgb(0 0 0 / 15%);
+                width: 60%;
+                display: flex;
+                align-items: center;
+                height: 150px;
+                // border: 1px solid #C2C2C2;
+                border-radius: 10px;
+                .leftContainer{
+                    width: 35%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .imgContainer{
+                        width: 125px;
+                        height: 125px;
+                        background-color: #C2C2C2;
+                        border-radius: 50%;
+                    }
+                }
+                .rightContainer{
+                    height: 80%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    h4{
+                        font-size: 20px;
+                        font-weight: bold;
+                    }
+                    p{
+                        font-size: 14px;
+                    }
+                    .starsContainer{
+                        .check{
+                            color: #FFEB3C;
+                        }
+                        .uncheck{
+                            color: #D9D9D9;
+                        }
+                    }
+                }
+            }
+            .three{
+                margin-bottom: 4rem;
+                margin-left: auto;
+            }
+            .two{
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                margin-left: auto;
+                margin-right: auto;
+            }
         }
     }
 }
