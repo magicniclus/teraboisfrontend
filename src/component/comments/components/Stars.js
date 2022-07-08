@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import "./_stars.scss"
 
 const Stars = (props) => {
     const stars = props.stars;
