@@ -34,12 +34,17 @@
             width: 100%;
             .cardsContainer{    
                 box-shadow: 0px 1px 5px -1px rgb(0 0 0 / 15%);
-                width: 60%;
+                width: 35rem;
                 display: flex;
                 align-items: center;
                 height: 150px;
-                // border: 1px solid #C2C2C2;
                 border-radius: 10px;
+                @media screen and (max-width: 768px) {
+                    width: 30rem;
+                }
+                @media screen and (max-width: 540px) {
+                    width: 100%;
+                }
                 .leftContainer{
                     width: 35%;
                     height: 100%;
@@ -80,8 +85,8 @@
                 margin-left: auto;
             }
             .two{
-                margin-top: 1rem;
-                margin-bottom: 1rem;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
                 margin-left: auto;
                 margin-right: auto;
             }
