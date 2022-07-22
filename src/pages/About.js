@@ -57,21 +57,19 @@ const About = () => {
                 </div>
                 <p className="littleConnect">Déjà un projet avec nous ? <br/> <NavLink to='/connection'>Connectez-vous</NavLink></p>
 
-                <TitleAndText title="Nos Préstations" text="Toutes nos prestations sont réalisées par des équipes qualifiées spésifiquement dans leur domaine. Cette qualité de travail nous a permis d'être certifié par des organisme reconnus par l'État." />
+                <TitleAndText title="Nos Préstations" text="Toutes nos prestations sont réalisées par des équipes qualifiées spécifiquement dans leur domaine. Cette qualité de travail nous a permis d'être certifié par des organismes reconnus et encadrés par l'État. Comme pour toutes nos prestations, Terabois propose une réalisation sur mesure et clé en main. " />
 
                 {/* <Button link="/nous-contacter" value="En savoir plus"/> */}
     
-                <ImageAndText img="./img/photo-iti.jpg" alt="Isolation Exterieur" title="Isolation exterieur" text="Ex commodi voluptatem eos rerum quasi et quis tenetur et iure voluptatem ea quis dolorem. 
-                Ut laudantium optio et odit ipsam id reprehenderit voluptatem. Et internos rerum ut perferendis reprehenderit qui beatae fuga a aspernatur excepturi."  sens="left"/>
+                <ImageAndText img="./img/about/int/int-one.jpeg" alt="Isolation murs Intérieurs" title="Isolation murs interieurs" text="Il est primordial d’isoler les murs de votre habitation afin d’améliorer votre confort thermique. Étant la partie de votre maison la plus en contact avec l’extérieur, si les murs ne sont pas isolés, cela cause des transferts de chaleur entre l’extérieur et l’intérieur du logement. "  sens="left"/>
 
-                <ImageAndText img="./img/photo-iti.jpg" alt="Isolation Interieur" title="Isolation Interieur" text="Ex commodi voluptatem eos rerum quasi et quis tenetur et iure voluptatem ea quis dolorem. 
-                Ut laudantium optio et odit ipsam id reprehenderit voluptatem. Et internos rerum ut perferendis reprehenderit qui beatae fuga a aspernatur excepturi."  sens="right"/>
+                <ImageAndText img="./img/about/ext/ext-two.jpeg" alt="Isolation " title="Isolation murs interieurs" text="L’isolation des murs extérieurs limite les échanges thermiques avec l’extérieur vous procurent un meilleur confort intérieur. Mais pas que … Pas de perte d’espace pour votre maison, limitation des ponts thermiques, déphasage optimisé et une nette amélioration des nuisances sonores. "  sens="right"/>
 
-                <ImageAndText img="./img/photo-iti.jpg" alt="Isolation Des Combles" title="Isolation Des Combles" text="Ex commodi voluptatem eos rerum quasi et quis tenetur et iure voluptatem ea quis dolorem. 
-                Ut laudantium optio et odit ipsam id reprehenderit voluptatem. Et internos rerum ut perferendis reprehenderit qui beatae fuga a aspernatur excepturi."  sens="left"/>
+                <ImageAndText img="./img/about/combles/combles-two.jpeg" alt="Isolation Des Combles" title="Isolation Des Combles" text="Pour les combles perdus, l’absence d’isolation dans ces zones est la première cause de déperdition thermique de votre maison. En effet jusqu’à 
+                30% de la chaleur d’une habitation s’échappe par vos combles. Ce travail demande minutie, et professionnalisme pour qu’elle reste efficace dans le temps.
+                "  sens="left"/>
 
-                <ImageAndText img="./img/photo-iti.jpg" alt="Isolation De la toiture" title="Isolation De la toiture" text="Ex commodi voluptatem eos rerum quasi et quis tenetur et iure voluptatem ea quis dolorem. 
-                Ut laudantium optio et odit ipsam id reprehenderit voluptatem. Et internos rerum ut perferendis reprehenderit qui beatae fuga a aspernatur excepturi."  sens="right"/>
+                <ImageAndText img="./img/photo-iti.jpg" alt="Isolation De la toiture" title="Isolation de la toiture (sous-rampant)" text="Comme pour les combles perdus, l’isolation sous-rampant permet d’optimiser la déperdition énergétique de votre maison, mais permet également d’aménager vos combles. "  sens="right"/>
                 
                 <Button link="/nous-contacter" addClass="new" value="Isoler mon logement"/>
                 <NavLink to="/" className="first">Accueil</NavLink>
