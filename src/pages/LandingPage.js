@@ -104,28 +104,36 @@ const LandingPage = () => {useEffect(() => {
                                 <div className="question">
                                     <DropDown
                                         question="Pourquoi bien isoler son logement ?"
-                                        text="“Ex commodi voluptatem eos rerum quasi et quis tenetur et iure voluptatem ea quis dolorem. Ut laudantium optio et odit ipsam id reprehenderit voluptatem. Et internos rerum ut perferendis reprehenderit qui beatae fuga a aspernatur excepturi.”"
+                                        text="Facture réduite,
+                                        Gain en confort,
+                                        Maison plus saine,
+                                        Participation à l'éffort écologique,
+                                        Valorisation du logement, toutes ces raisons rende indispensable une bonne isolation de votre logement.
+                                        "
                                         callback={setUpButtonOne}
                                         return={upButtonOne}
                                         arg={handleButtonOne}
                                     />
                                     <DropDown
-                                        question="Pourquoi bien isoler son logement ?"
-                                        text="“Ex commodi voluptatem eos rerum quasi et quis tenetur et iure voluptatem ea quis dolorem. Ut laudantium optio et odit ipsam id reprehenderit voluptatem. Et internos rerum ut perferendis reprehenderit qui beatae fuga a aspernatur excepturi.”"
+                                        question="Pourquoi nous faire confiance ? "
+                                        text="Nous sommes spécialiste en économie d'énergie de l'habitat depuis plus de 10 ans, TeraBois est avant tout une entreprise familiale et artisanale.
+                                        Notre savoir faire nous a permis de nous piositionner comme l'entreprise leader dans son domaine.
+                                        Nous proposons un service sur-mesure et clé en main .
+                                        "
                                         callback={setUpButtonTwo}
                                         return={upButtonTwo}
                                         arg={handleButtonTwo}
                                     />
                                     <DropDown
-                                        question="Pourquoi bien isoler son logement ?"
-                                        text="“Ex commodi voluptatem eos rerum quasi et quis tenetur et iure voluptatem ea quis dolorem. Ut laudantium optio et odit ipsam id reprehenderit voluptatem. Et internos rerum ut perferendis reprehenderit qui beatae fuga a aspernatur excepturi.”"
+                                        question="Quelles sont les aides de l’état ?"
+                                        text="Grace au CEE et MaprimeRenov, Eco-PTZ bénéficiez d'aide encadré par l'état pouvant aller Jusqu’à 50000€. *Étant une entreprise certifiée RGE, l’ensemble des aides existantes peuvent vous être proposées."
                                         callback={setUpButtonThree}
                                         return={upButtonThree}
                                         arg={handleButtonThree}
                                     />
                                     <DropDown
-                                        question="Pourquoi bien isoler son logement ?"
-                                        text="“Ex commodi voluptatem eos rerum quasi et quis tenetur et iure voluptatem ea quis dolorem. Ut laudantium optio et odit ipsam id reprehenderit voluptatem. Et internos rerum ut perferendis reprehenderit qui beatae fuga a aspernatur excepturi.”"
+                                        question="Quelles solutions de financement ?"
+                                        text="Nous pouvons vous proposer plusieurs solutions avec nos différents partenaires, après étude de votre dossier."
                                         callback={setUpButtonFour}
                                         return={upButtonFour}
                                         arg={handleButtonFour}
