@@ -151,6 +151,7 @@
                                 align-items: center;
                                 justify-content: space-around;
                                 width: 80%;
+                                position: relative;
                                 p{
                                     margin: 0;
                                     margin-bottom: 5px;
@@ -170,6 +171,8 @@
                                 img{
                                     color: #0396A6;
                                     width: 17px;
+                                    position: absolute;
+                                    right: 10px;
                                     @media screen and (max-width: 1017px) {
                                         width: 13px;
                                         margin-bottom: 2px;
