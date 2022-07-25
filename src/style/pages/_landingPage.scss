@@ -59,16 +59,16 @@
                 width: 90%;
                 height: 95%;
                 .whereAreMe{
-                    opacity: 0;
+                    opacity: 1;
                     display: flex;
                     align-items: center;
                     margin-left: 15px;
                     margin-top: 15px;
-                    animation-name: hiddenText;
-                    animation-timing-function:ease-out;
-                    animation-duration: 0.3s;
-                    animation-delay: 0.4s;
-                    animation-fill-mode: forwards;
+                    // animation-name: hiddenText;
+                    // animation-timing-function:ease-out;
+                    // animation-duration: 0.3s;
+                    // animation-delay: 0.4s;
+                    // animation-fill-mode: forwards;
                     @media screen and (max-width: 425px) {
                         display: none;
                     }
@@ -97,12 +97,12 @@
                         margin-top: 0;
                     }
                     .title{
-                        opacity: 0;
-                        animation-name: apparitionText;
-                        animation-timing-function:ease-out;
-                        animation-duration: 0.3s;
-                        animation-delay: 0.2s;
-                        animation-fill-mode: forwards;
+                        opacity: 1;
+                        // animation-name: apparitionText;
+                        // animation-timing-function:ease-out;
+                        // animation-duration: 0.3s;
+                        // animation-delay: 0.2s;
+                        // animation-fill-mode: forwards;
                         display: flex;
                         flex-direction: column;
                         align-items: center;
@@ -143,16 +143,16 @@
                         }
                     }
                     .question{
-                        opacity: 0;
+                        opacity: 1;
                         display: flex;
                         justify-content: center;
                         flex-direction: column;
                         margin-bottom: 50px;
-                        animation-name: hiddenText;
-                        animation-timing-function:ease-out;
-                        animation-duration: 0.3s;
-                        animation-delay: 0.4s;
-                        animation-fill-mode: forwards;
+                        // animation-name: hiddenText;
+                        // animation-timing-function:ease-out;
+                        // animation-duration: 0.3s;
+                        // animation-delay: 0.4s;
+                        // animation-fill-mode: forwards;
                         height: 40%;
                         max-height: 25rem;
                         overflow: scroll;
@@ -209,13 +209,12 @@
                                 max-width: 360px;
                                 margin-top: 15px;
                                 font-size: 14px;
-                                // height: 0;
-                                opacity: 0;
-                                animation-name: apparitionText;
-                                animation-timing-function:ease-out;
-                                animation-duration: 0.4s;
-                                animation-delay: 0.1s;
-                                animation-fill-mode: forwards;
+                                opacity: 1;
+                                // animation-name: apparitionText;
+                                // animation-timing-function:ease-out;
+                                // animation-duration: 0.4s;
+                                // animation-delay: 0.1s;
+                                // animation-fill-mode: forwards;
                                 @media screen and (min-width: 2200px) {
                                     font-size: 20px;
                                     max-width: 80%;
@@ -882,25 +881,12 @@
             color: white;
         }   
     }
-    .modalContainer::before{
-        // position: absolute;
-        // top: 0;
-        // right: 0;
-        // content: "";
-        // height: 100%;
-        // width: 100%;
-        // border-radius: 10px;
-        // background-image: url("../../../public/img/pexels-no-name-66997.jpg");
-        // background-size: cover;
-        // opacity: 0.8;
-    }
 }
 
 @keyframes hiddenText {
     from{
         opacity: 0;
         transform: translateX(-100px);
-        // height: 0;
     }
 
     70%{
@@ -908,7 +894,6 @@
     }
 
     to{
-        // height: 100%;
         opacity: 1;
         transform: translateX(0px);
     }
@@ -918,7 +903,6 @@
     from{
         opacity: 0;
         transform: translateX(+100px);
-        // height: 0;
     }
 
     70%{
@@ -926,7 +910,6 @@
     }
 
     to{
-        // height: 100%;
         opacity: 1;
         transform: translateX(0px);
     }
