@@ -64,11 +64,6 @@
                     align-items: center;
                     margin-left: 15px;
                     margin-top: 15px;
-                    // animation-name: hiddenText;
-                    // animation-timing-function:ease-out;
-                    // animation-duration: 0.3s;
-                    // animation-delay: 0.4s;
-                    // animation-fill-mode: forwards;
                     @media screen and (max-width: 425px) {
                         display: none;
                     }
@@ -98,11 +93,6 @@
                     }
                     .title{
                         opacity: 1;
-                        // animation-name: apparitionText;
-                        // animation-timing-function:ease-out;
-                        // animation-duration: 0.3s;
-                        // animation-delay: 0.2s;
-                        // animation-fill-mode: forwards;
                         display: flex;
                         flex-direction: column;
                         align-items: center;
@@ -148,11 +138,6 @@
                         justify-content: center;
                         flex-direction: column;
                         margin-bottom: 50px;
-                        // animation-name: hiddenText;
-                        // animation-timing-function:ease-out;
-                        // animation-duration: 0.3s;
-                        // animation-delay: 0.4s;
-                        // animation-fill-mode: forwards;
                         height: 40%;
                         max-height: 25rem;
                         overflow: scroll;
@@ -209,12 +194,6 @@
                                 max-width: 360px;
                                 margin-top: 15px;
                                 font-size: 14px;
-                                opacity: 1;
-                                // animation-name: apparitionText;
-                                // animation-timing-function:ease-out;
-                                // animation-duration: 0.4s;
-                                // animation-delay: 0.1s;
-                                // animation-fill-mode: forwards;
                                 @media screen and (min-width: 2200px) {
                                     font-size: 20px;
                                     max-width: 80%;
@@ -468,12 +447,10 @@
                                 }
                             }
                             .selected:hover{
-                                // border: 3px solid #F28963;
                                 box-shadow: none;
                             }
                         }
                         .btnContainer{
-                            // margin-top: 50px;
                             width: 100%;
                             display: flex;
                             flex-direction: column;
@@ -506,7 +483,6 @@
                                 display: none;
                             }
                             .hiddenError{
-                                // margin-top: 10px;
                                 display: flex;
                                 font-size: 15px;                                
                                 color: #F25C5C;
@@ -585,7 +561,6 @@
                                 .newsLater{
                                     margin-top: 3px;
                                     label{
-                                        // font-weight: bold;
                                         font-size: 14px;
                                     }
                                 }
@@ -598,7 +573,6 @@
                     animation-name: updateFormSize;
                     animation-duration: 0.3s;
                     animation-timing-function: ease-out;
-                    // animation-delay: 0.2s;
                     animation-fill-mode: forwards;
                     .returnBtn{
                         opacity: 0;
@@ -714,7 +688,6 @@
         .endContainer{
             background-image: url("../../../public/img/photo-iti.jpg");
             background-size: cover;
-            // background-color: antiquewhite;
             width: 40%;
             height: 100%;
             display: none;
@@ -725,7 +698,6 @@
                 display: none;
             }
             @media screen and (max-height: 800px) {
-                // height: 800px;
             }
             @media screen and (max-width: 425px) {
                 display: flex;
@@ -804,7 +776,6 @@
                                 max-width: 360px;
                                 margin-top: 15px;
                                 font-size: 14px;
-                                // height: 0;
                                 opacity: 0;
                                 animation-name: apparitionText;
                                 animation-timing-function:ease-out;
