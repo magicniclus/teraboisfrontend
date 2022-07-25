@@ -8,9 +8,9 @@ const Cards = (props) => {
 
     return (
         <>
-            <div className={"leftContainer"} >
+            {/* <div className={"leftContainer"} >
                 <div className="imgContainer"></div>
-            </div>
+            </div> */}
             <div className="rightContainer">
                 <h4 className='name'>{name}</h4>
                 <p>{commentaire}</p>
