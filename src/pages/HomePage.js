@@ -1,4 +1,4 @@
-import React, { createRef, useEffect } from 'react';
+import React, { createRef, useEffect, useState } from 'react';
 import HomeNavigation from '../component/HomeNavigation';
 import { NavLink } from 'react-router-dom';
 import Button from "../component/Button"
@@ -17,6 +17,36 @@ gsap.registerPlugin(ScrollTrigger);
  * @returns The HomePage component is being returned.
  */
 const HomePage = () => {
+
+    const [upButtonOne, setUpButtonOne] = useState(false)
+    const [upButtonTwo, setUpButtonTwo] = useState(false)
+    const [upButtonThree, setUpButtonThree] = useState(false)
+    const [upButtonFour, setUpButtonFour] = useState(false)
+    
+    const handleButtonOne = () => {
+        setUpButtonTwo(false)
+        setUpButtonThree(false)
+        setUpButtonFour(false)
+    }
+
+    const handleButtonTwo = () => {
+        setUpButtonOne(false)
+        setUpButtonThree(false)
+        setUpButtonFour(false)
+    }
+
+    const handleButtonThree = () => {
+        setUpButtonOne(false)
+        setUpButtonTwo(false)
+        setUpButtonFour(false)
+    }
+
+    const handleButtonFour = () => {
+        setUpButtonOne(false)
+        setUpButtonTwo(false)
+        setUpButtonThree(false)
+    }
+
 
     /* It's a hook that allows us to create a reference to a DOM element. */
     const navBar = createRef()
@@ -73,10 +103,42 @@ const HomePage = () => {
                     <NavLink to="/about" className="btnUn">En savoir plus</NavLink>
                 </div>
                 <section className="smallBottomContainer">
-                    <DropDown question="Pourquoi bien isoler son logement ? " text="Lorem ipsum dolor sit amet. Aut nesciunt distinctio ab quasi ipsam non voluptatem inventore aut explicabo modi eum porro beatae. Est commodi officiis et fugiat nemo sit minus voluptatum. Sed porro error aut inventore minima vel architecto velit ea accusantium officiis." />
-                    <DropDown question="Les aides de l'état " text="Lorem ipsum dolor sit amet. Aut nesciunt distinctio ab quasi ipsam non voluptatem inventore aut explicabo modi eum porro beatae. Est commodi officiis et fugiat nemo sit minus voluptatum. Sed porro error aut inventore minima vel architecto velit ea accusantium officiis." />
-                    <DropDown question="Comment ça fonctionne ? " text="Lorem ipsum dolor sit amet. Aut nesciunt distinctio ab quasi ipsam non voluptatem inventore aut explicabo modi eum porro beatae. Est commodi officiis et fugiat nemo sit minus voluptatum. Sed porro error aut inventore minima vel architecto velit ea accusantium officiis." />
-                    <DropDown question="Qui sommes-nous ? " text="Lorem ipsum dolor sit amet. Aut nesciunt distinctio ab quasi ipsam non voluptatem inventore aut explicabo modi eum porro beatae. Est commodi officiis et fugiat nemo sit minus voluptatum. Sed porro error aut inventore minima vel architecto velit ea accusantium officiis." />
+                                    <DropDown
+                                        question="Pourquoi bien isoler son logement ?"
+                                        text="Facture réduite,
+                                        Gain en confort,
+                                        Maison plus saine,
+                                        Participation à l'éffort écologique,
+                                        Valorisation du logement, toutes ces raisons rende indispensable une bonne isolation de votre logement.
+                                        "
+                                        callback={setUpButtonOne}
+                                        return={upButtonOne}
+                                        arg={handleButtonOne}
+                                    />
+                                    <DropDown
+                                        question="Pourquoi nous faire confiance ? "
+                                        text="Nous sommes spécialiste en économie d'énergie de l'habitat depuis plus de 10 ans, TeraBois est avant tout une entreprise familiale et artisanale.
+                                        Notre savoir faire nous a permis de nous piositionner comme l'entreprise leader dans son domaine.
+                                        Nous proposons un service sur-mesure et clé en main .
+                                        "
+                                        callback={setUpButtonTwo}
+                                        return={upButtonTwo}
+                                        arg={handleButtonTwo}
+                                    />
+                                    <DropDown
+                                        question="Quelles sont les aides de l’état ?"
+                                        text="Grace au CEE et MaprimeRenov, Eco-PTZ bénéficiez d'aide encadré par l'état pouvant aller Jusqu’à 50000€. *Étant une entreprise certifiée RGE, l’ensemble des aides existantes peuvent vous être proposées."
+                                        callback={setUpButtonThree}
+                                        return={upButtonThree}
+                                        arg={handleButtonThree}
+                                    />
+                                    <DropDown
+                                        question="Quelles solutions de financement ?"
+                                        text="Nous pouvons vous proposer plusieurs solutions avec nos différents partenaires, après étude de votre dossier."
+                                        callback={setUpButtonFour}
+                                        return={upButtonFour}
+                                        arg={handleButtonFour}
+                                    />
                     <div className="btnContainer">
                         <Button value="Isoler mon logement" link="/nous-contacter" />
                     </div>
