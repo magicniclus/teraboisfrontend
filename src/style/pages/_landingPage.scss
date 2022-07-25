@@ -16,8 +16,8 @@
         flex-wrap: nowrap;
         @media screen and (max-width: 425px) {
             flex-direction: column;
+            background-color: #f2f2f2;  
         }
-        background-color: #f2f2f2;
         .connectionMobile{
             display: none;
             margin-left: 1rem;
