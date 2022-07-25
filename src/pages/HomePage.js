@@ -61,18 +61,18 @@ const HomePage = () => {
     useEffect(() => {
         document.title = "TeraBois | Accueil"
         window.scrollTo(0, 0);
-        // gsap.to(navBar.current, {
-        //     duration: 0.3,
-        //     y: 0,
-        //     autoAlpha: 1,
-        //     display: "flex",
-        //     height: "4.5rem",
-        //     ease: "back.out(0.3)",
-        //     scrollTrigger: {
-        //         trigger: ".titleAndText",
-        //         start: "bottom top+=76"
-        //     }
-        // })
+        gsap.to(navBar.current, {
+            duration: 0.3,
+            y: 0,
+            autoAlpha: 1,
+            display: "flex",
+            height: "4.5rem",
+            ease: "back.out(0.3)",
+            scrollTrigger: {
+                trigger: ".titleAndText",
+                start: "bottom top+=76"
+            }
+        })
         // gsap.fromTo(".titleAndText", { x: 2000 }, { duration: 1, x: 0, clearProps: "x", ease: "back.out(0.3)" })
         // gsap.fromTo(".titleAndText", { opacity: 0 }, { duration: 1, opacity: 1, ease: "back.out(0.3)" })
         // gsap.fromTo(".specialiste", { opacity: 0 }, { duration: 1, delay: 0.5, opacity: 1, clearProps: 'x', ease: "back.out" })
