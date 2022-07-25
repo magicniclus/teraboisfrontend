@@ -18,6 +18,7 @@
     .headerFixed{
         position: fixed;
         box-shadow: none;
+        z-index: 5;
         top: 0;
         right: 0;
         display: flex;
