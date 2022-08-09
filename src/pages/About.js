@@ -4,7 +4,6 @@ import TitleAndText from '../component/TitleAndText';
 import ImageAndText from '../component/ImageAndText';
 import Button from '../component/Button';
 import { NavLink } from 'react-router-dom'; 
-import {mpl} from 'my-personnal-library';
 import {gsap} from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -22,9 +21,6 @@ const About = () => {
     ScrollTrigger.defaults({
         toggleActions: "play none none reverse",
     })
-
-    /* It's a function from my personnal library. It's a function that return the sum of two numbers. */
-    mpl(2, 3)
 
     /* It's a function from react that allow to change the title of the page. */
     useEffect (()=>{
