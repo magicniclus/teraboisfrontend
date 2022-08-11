@@ -57,11 +57,11 @@ const About = () => {
 
                 {/* <Button link="/nous-contacter" value="En savoir plus"/> */}
     
-                <ImageAndText img="./img/about/int/int-one.jpeg" alt="Isolation murs Intérieurs" title="Isolation murs interieurs" text="Il est primordial d’isoler les murs de votre habitation afin d’améliorer votre confort thermique. Étant la partie de votre maison la plus en contact avec l’extérieur, si les murs ne sont pas isolés, cela cause des transferts de chaleur entre l’extérieur et l’intérieur du logement. "  sens="left"/>
+                <ImageAndText img="./img/about/int/isolationint.jpeg" alt="Isolation murs Intérieurs" title="Isolation murs interieurs" text="Il est primordial d’isoler les murs de votre habitation afin d’améliorer votre confort thermique. Étant la partie de votre maison la plus en contact avec l’extérieur, si les murs ne sont pas isolés, cela cause des transferts de chaleur entre l’extérieur et l’intérieur du logement. "  sens="left"/>
 
                 <ImageAndText img="./img/about/ext/ext-two.jpeg" alt="Isolation " title="Isolation murs interieurs" text="L’isolation des murs extérieurs limite les échanges thermiques avec l’extérieur vous procurent un meilleur confort intérieur. Mais pas que … Pas de perte d’espace pour votre maison, limitation des ponts thermiques, déphasage optimisé et une nette amélioration des nuisances sonores. "  sens="right"/>
 
-                <ImageAndText img="./img/about/combles/combles-two.jpeg" alt="Isolation Des Combles" title="Isolation Des Combles" text="Pour les combles perdus, l’absence d’isolation dans ces zones est la première cause de déperdition thermique de votre maison. En effet jusqu’à 
+                <ImageAndText img="./img/about/combles/isolationcombles.jpeg" alt="Isolation Des Combles" title="Isolation Des Combles" text="Pour les combles perdus, l’absence d’isolation dans ces zones est la première cause de déperdition thermique de votre maison. En effet jusqu’à 
                 30% de la chaleur d’une habitation s’échappe par vos combles. Ce travail demande minutie, et professionnalisme pour qu’elle reste efficace dans le temps.
                 "  sens="left"/>
 
