@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3657ab4f.css",
+    "main.js": "/static/js/main.cefbb850.js",
+    "static/media/photo-iti.jpeg": "/static/media/photo-iti.6a05b21000614bb2e491.jpeg",
+    "static/media/photo-iti.jpg": "/static/media/photo-iti.7dac3c44741ee3f925f7.jpg",
+    "static/media/AdobeStock_56013523_Preview.jpeg": "/static/media/AdobeStock_56013523_Preview.84fce2fb4f90f0122d75.jpeg",
+    "static/media/client.jpeg": "/static/media/client.d2d4e035f1286c58892e.jpeg",
+    "index.html": "/index.html",
+    "main.3657ab4f.css.map": "/static/css/main.3657ab4f.css.map",
+    "main.cefbb850.js.map": "/static/js/main.cefbb850.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3657ab4f.css",
+    "static/js/main.cefbb850.js"
+  ]
+}
