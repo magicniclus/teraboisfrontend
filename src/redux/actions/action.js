@@ -304,7 +304,7 @@ export function addUser(user) {
     return (dispatch) => {
         console.log(user);
         dispatch({ type: "addNameValue", payload: user });
-        axios.post("http://localhost:1337/api/prospects", {
+        axios.post("http://23.20.8.155:1337/api/prospects", {
             "data": user
         })
             .then(
@@ -318,7 +318,7 @@ export function addUser(user) {
 
 export function addUserWhenImAdmin(user) {
     return (dispatch) => {
-        axios.post("http://localhost:1337/api/prospects", {
+        axios.post("http://23.20.8.155:1337/api/prospects", {
             "data": user
         }, {
             headers: {
@@ -343,7 +343,7 @@ export function addUserWhenImAdmin(user) {
 export function userConnect(user) {
     return (dispatch) => {
         dispatch({ type: "isLoading" });
-        axios.post("http://localhost:1337/api/auth/local", {
+        axios.post("http://23.20.8.155:1337/api/auth/local", {
             identifier: user.identifier,
             password: user.password
         }).then((response) => {
@@ -372,7 +372,7 @@ export function userDisconnect(){
  */
 export function showAllProspect() {
     return dispatch => {
-        axios.get("http://localhost:1337/api/prospects?pagination[page]=1&pagination[pageSize]=1000&sort=createdAt:DESC", {
+        axios.get("http://23.20.8.155:1337/api/prospects?pagination[page]=1&pagination[pageSize]=1000&sort=createdAt:DESC", {
             headers: {
                 Authorization: `Bearer ` + localStorage.jwt,
             }
@@ -394,7 +394,7 @@ export function mofificationOfComments(id, text) {
     console.log(localStorage.getItem("jwt"));
     try {
         axios.put(
-            `http://localhost:1337/api/prospects/${id}`,
+            `http://23.20.8.155:1337/api/prospects/${id}`,
             {
                 data: {
                     comments: text,
@@ -416,7 +416,7 @@ export function mofificationOfComments(id, text) {
 
 export function showMeComments() {
     return dispatch => {
-        axios.get("http://localhost:1337/api/comments", {
+        axios.get("http://23.20.8.155:1337/api/comments", {
         }).then((response) => {
             dispatch({ type: "addComments", payload: response.data.data})
         }).catch (err => {
