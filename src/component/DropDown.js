@@ -32,7 +32,7 @@ const DropDown = (props) => {
             <div className={classValue === undefined ? "dropDownContainer": "dropDownContainer " + classValue}>
                 <div onClick={handleclick} className="dropDown">
                     <p>{question}</p>
-                    <img src="../img/SVG/1x/chevronBottom.png" alt="chevron bottom" />
+                    <img src="../img/SVG/1x/chevronbottom.png" alt="chevron bottom" />
                 </div>
                 <div className="lign"></div>
             </div>
