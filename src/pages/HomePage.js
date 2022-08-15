@@ -10,6 +10,7 @@ import ImageAndText from '../component/ImageAndText';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Comments from '../component/comments/Comments';
+import multitmaison from "../../public/img/test/isolation/multitmaison.jpeg";
 
 gsap.registerPlugin(ScrollTrigger);
 /**
@@ -99,7 +100,7 @@ const HomePage = () => {
                     {/* <TitleAndText title="Maison TeraBois" text='“Notre savoir-faire au service de votre maison”' img="" /> */}
                     <Button value="Isoler mon logement" link="/nous-contacter" />
                     <section className="specialiste">
-                        <ImageAndText addClass="imageAndText" sens="left" img="./img/test/isolation/multitmaison.jpeg" alt="isolation interieur" title="Spécialiste de l’économie d’énergie " text="TeraBois, spécialiste en économie d'énergie de l'habitat depuis plus de 10 ans, TeraBois est avant tout une entreprise familiale et artisanale." textTwo="Notre savoir faire nous a permis de nous piositionner comme l'entreprise leader dans son domaine." />
+                        <ImageAndText addClass="imageAndText" sens="left" img={multitmaison} alt="isolation interieur" title="Spécialiste de l’économie d’énergie " text="TeraBois, spécialiste en économie d'énergie de l'habitat depuis plus de 10 ans, TeraBois est avant tout une entreprise familiale et artisanale." textTwo="Notre savoir faire nous a permis de nous piositionner comme l'entreprise leader dans son domaine." />
                     </section>
                     <NavLink to="/about" className="btnUn">En savoir plus</NavLink>
                 </div>
