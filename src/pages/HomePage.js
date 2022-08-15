@@ -95,7 +95,7 @@ const HomePage = () => {
                 </div>
                 <div className="containerTop">
                     <p className="littleConnect">Déjà un projet avec nous ? <br /> <NavLink to='/connection'>Connectez-vous</NavLink></p>
-                    <TitleAndText title="Maison TeraBois" text='“Notre savoir-faire au service de votre bien-être”' img="./img/test/house/maisonbois.jpeg" />
+                    <TitleAndText title="Maison TeraBois" text='“Notre savoir-faire au service de votre bien-être”' img="./img/test/house/maisonbois.jpg" />
                     {/* <TitleAndText title="Maison TeraBois" text='“Notre savoir-faire au service de votre maison”' img="" /> */}
                     <Button value="Isoler mon logement" link="/nous-contacter" />
                     <section className="specialiste">
