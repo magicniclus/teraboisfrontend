@@ -36,7 +36,7 @@ const Footer = () => {
         <footer>
             <div className="footerContainer">
                 <div className='footerContainerLeft'>
-                    <NavLink to="/">Conditions générales de vente</NavLink>
+                    <NavLink to="/conditions-generales">Conditions générales de vente</NavLink>
                     <NavLink to="/politique-de-confidentialite">Politiques de confidentialité</NavLink>
                     <NavLink to="/" className="signIn">
                         <div className="imgContainer">

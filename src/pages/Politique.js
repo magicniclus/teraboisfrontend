@@ -11,7 +11,122 @@ const Politique = () => {
                 <h1>Politique de confidentialité</h1>
                 <section>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At reiciendis expedita, dignissimos, atque laborum non fugiat eos iste sunt quae quia odio consectetur nulla error soluta! Tempora ratione error obcaecati natus optio accusantium doloremque, similique vel a distinctio quaerat dignissimos, impedit iure, ex odio aliquam. Natus odio fugiat adipisci corrupti quo cupiditate dicta doloremque voluptatem laboriosam commodi quibusdam, laborum impedit perspiciatis blanditiis nesciunt similique voluptatibus quia et minima praesentium architecto expedita ex officia. Molestiae suscipit porro voluptatem inventore dolorum non quaerat. Nihil facilis modi saepe similique, facere totam cumque voluptate deserunt dolorem ipsa iste at dicta laudantium ea est! Ullam deleniti mollitia nisi est provident rerum esse facere maiores, vel aliquid consequuntur rem autem pariatur! Ipsum repellendus culpa dolorem? Repudiandae sapiente laborum vitae quas voluptatibus! Dolore facere rem ipsam labore? Iusto, doloribus? Ut in provident corrupti eveniet, ea optio harum possimus eius eum consectetur beatae blanditiis, dignissimos est saepe dolor similique. Sequi assumenda in labore voluptas temporibus? Non impedit, optio possimus eaque perspiciatis dolores iure eius! Corrupti placeat sequi similique porro quia voluptate beatae blanditiis exercitationem nisi aperiam optio, labore eligendi sed temporibus fugit id harum facere a ipsum odit atque numquam esse incidunt non. Soluta eveniet facilis mollitia ea aliquam odit a adipisci obcaecati culpa, necessitatibus neque, ipsum veritatis aut, voluptatem corporis. Quidem eaque magnam veniam, consectetur quod laboriosam, quibusdam nulla, a error in amet voluptate! Sit nobis possimus veritatis aut, quas magnam laboriosam facere illo perferendis architecto, labore deleniti nisi quibusdam ipsum! Asperiores sequi officia sed accusamus, assumenda tempore libero perferendis dolor obcaecati cupiditate, aut modi error atque molestias incidunt nostrum quisquam rem distinctio mollitia! Autem quia aspernatur sed sunt neque eos quibusdam quos asperiores ratione dolor quo tempore harum amet vel eum praesentium quisquam ad sequi, voluptates adipisci omnis dolorum fuga! Eaque corrupti natus illo eum saepe quos earum odit distinctio, dicta perferendis, temporibus ullam voluptatibus illum error? Unde a laborum fugiat ea fugit, atque expedita harum dicta sapiente necessitatibus similique illo exercitationem delectus veniam officiis tenetur adipisci possimus cum voluptate voluptas maiores! Tenetur, corporis inventore placeat itaque error, ipsa adipisci iusto, deserunt earum necessitatibus distinctio quaerat! Reprehenderit nulla vel dolore laboriosam possimus rerum nam ea expedita, exercitationem molestias iste minima commodi blanditiis, explicabo animi numquam ipsa a, atque autem necessitatibus quaerat tempora iusto laborum temporibus? Dolore officia consequuntur asperiores in atque obcaecati, architecto est consectetur doloremque beatae sed ipsa dolor delectus blanditiis sit laboriosam earum molestias. Exercitationem adipisci repudiandae at ipsa. Expedita culpa odio omnis assumenda. Ipsum maxime corporis commodi fugit, similique architecto tempora incidunt deleniti officia, dolores earum maiores! Ea fuga quisquam ab quos dolor veniam a unde velit optio magni exercitationem, animi, accusantium dolorum! Deleniti delectus laborum earum aliquam maxime illum omnis. Sed possimus dolores, quisquam quia in facilis, explicabo culpa quae omnis nulla, beatae autem delectus veritatis corrupti ipsam consequatur laudantium quasi sapiente vel fugit cum illo ad reprehenderit consequuntur. Deleniti in magni vero? Dolores eligendi sunt itaque tempore aliquam corporis doloribus, aperiam quia minima iste doloremque qui voluptatem illo ab recusandae iure dolore, cupiditate cum, ex officiis. Ullam blanditiis molestiae quaerat velit doloremque, reiciendis aspernatur, repellendus eos fuga tenetur iusto soluta, numquam doloribus nulla ipsam esse perferendis rem at praesentium! Nulla doloremque placeat dicta aperiam quibusdam inventore sapiente nobis voluptatem soluta repudiandae dignissimos, error, perspiciatis itaque assumenda maiores, quas vitae possimus quis qui excepturi nam nihil. Accusantium neque voluptatibus exercitationem deleniti. Nesciunt doloremque quo repellat cupiditate explicabo accusantium consequatur, voluptatibus qui. Nemo quis accusantium voluptatibus at dolor pariatur deleniti qui vel quibusdam atque fugit nam reprehenderit possimus hic officia quas, laudantium quo numquam quidem dolorem, vitae sint! Deleniti dolor quas id, neque consequuntur debitis culpa voluptatem repellendus consectetur aperiam vel temporibus, unde obcaecati incidunt iusto modi, nostrum totam labore. Ullam repellendus adipisci vitae sapiente, facere possimus quam voluptatem sit eum, nobis labore neque. Sed commodi qui unde necessitatibus sequi neque delectus repellendus assumenda reprehenderit incidunt repellat inventore, vero totam voluptate quo nostrum! Repudiandae quidem autem, sequi recusandae accusamus odit ut quam dolor, veritatis, reiciendis nisi sunt a earum obcaecati in nemo! Fugiat, quae placeat quis neque ab sint veritatis iure laudantium culpa id totam a itaque dolor quod numquam atque facere quasi reiciendis tempora? Totam, deleniti magnam? Quia minima fugiat obcaecati tempore optio? Hic repellat obcaecati suscipit optio commodi repellendus aliquid ex illo asperiores atque. Quia quis autem cupiditate aspernatur repudiandae accusantium id distinctio corporis, sunt deserunt doloribus dolorum temporibus eaque minima facere culpa dolores facilis nulla perspiciatis soluta, incidunt veniam laudantium! Veritatis exercitationem cupiditate quia ratione inventore dolor commodi unde, modi culpa vitae! Omnis, pariatur maxime veritatis possimus saepe, vero facere consectetur ab officia dignissimos unde qui corrupti. Reprehenderit facere nisi, tenetur consectetur, veritatis earum, error minima nam iusto veniam necessitatibus voluptatibus eum aliquam consequatur! Ipsa veniam hic illo. Exercitationem, nesciunt eveniet vitae repellat laborum facilis harum ipsa soluta aut ipsum fugit? Suscipit obcaecati voluptatum, rerum deserunt et beatae, explicabo dicta repudiandae iusto voluptates esse ipsum ipsam architecto harum perspiciatis molestiae aperiam tempora officia mollitia sequi. Iste corporis sit, ex voluptatem reiciendis, nemo consequuntur unde modi nam sunt necessitatibus. Amet, magnam beatae nihil quasi, placeat molestiae, officiis nulla iure voluptatibus sint ex aperiam neque laboriosam molestias ab ad itaque quia aspernatur vel eius nemo assumenda accusantium quo! Libero asperiores consequuntur quidem tempore inventore tempora! Nulla atque fugit quidem ipsum, reiciendis at odio illum molestias similique quod corporis nisi! Officiis earum maxime sed nemo cum amet quod quae dignissimos autem. Consequatur placeat perferendis ducimus cum cumque, neque ea veritatis illum vel. Tempora expedita labore officiis eligendi ducimus magnam eius reiciendis eveniet deleniti delectus in numquam velit obcaecati aliquid, exercitationem nisi, sapiente vero asperiores dolorum quod sunt repellendus excepturi? Architecto ad, ullam impedit obcaecati aliquid porro provident fugit voluptatibus minus labore officiis, dolores totam illo maxime numquam rem distinctio commodi accusamus assumenda! Iure possimus magni autem officia excepturi accusamus totam! Tempora voluptas commodi culpa, numquam neque quasi sequi. Dicta deleniti, sit consequuntur cumque perferendis in voluptatum accusantium. Dolore dolores sunt nam et excepturi veritatis, illo nostrum, molestias cum aspernatur hic, ab in unde!
+                    Politique de confidentialité 
+                        DÉCLARATION DE CONFIDENTIALITÉ
+
+                        ----
+
+                        ARTICLE 1 – RENSEIGNEMENTS PERSONNELS RECUEILLIS
+
+                        Lorsque vous effectuez un achat sur notre boutique, dans le cadre de notre processus d’achat et de vente, nous recueillons les renseignements personnels que vous nous fournissez, tels que votre nom, votre adresse et votre adresse e-mail.
+
+                        Lorsque vous naviguez sur notre boutique, nous recevons également automatiquement l’adresse de protocole Internet (adresse IP) de votre ordinateur, qui nous permet d’obtenir plus de détails au sujet du navigateur et du système d’exploitation que vous utilisez.
+
+                        Marketing par e-mail (le cas échéant): Avec votre permission, nous pourrions vous envoyer des e-mails au sujet de notre boutique, de nouveaux produits et d’autres mises à jour.
+
+
+                        ARTICLE 2 - CONSENTEMENT
+
+                        Comment obtenez-vous mon consentement?
+
+                        Lorsque vous nous fournissez vos renseignements personnels pour conclure une transaction, vérifier votre carte de crédit, passer une commande, planifier une livraison ou retourner un achat, nous présumons que vous consentez à ce que nous recueillions vos renseignements et à ce que nous les utilisions à cette fin uniquement.
+
+                        Si nous vous demandons de nous fournir vos renseignements personnels pour une autre raison, à des fins de marketing par exemple, nous vous demanderons directement votre consentement explicite, ou nous vous donnerons la possibilité de refuser.
+
+
+                        Comment puis-je retirer mon consentement?
+
+                        Si après nous avoir donné votre consentement, vous changez d’avis et ne consentez plus à ce que nous puissions vous contacter, recueillir vos renseignements ou les divulguer, vous pouvez nous en aviser en nous contactant à eleadbase@gmail.com ou par courrier à: TeraBois 36 avenue francois mitterrand, Floirac, B, 33270, France
+
+
+                        ARTICLE 3 – DIVULGATION
+
+                        Nous pouvons divulguer vos renseignements personnels si la loi nous oblige à le faire ou si vous violez nos Conditions Générales de Vente et d’Utilisation.
+
+
+                        ARTICLE 4 – SHOPIFY
+
+                        Notre boutique est hébergée sur Shopify Inc. Ils nous fournissent la plate-forme e-commerce en ligne qui nous permet de vous vendre nos services et produits.
+
+                        Vos données sont stockées dans le système de stockage de données et les bases de données de Shopify, et dans l’application générale de Shopify. Vos données sont conservées sur un serveur sécurisé protégé par un pare-feu.
+
+
+                        Paiement:
+
+                        Si vous réalisez votre achat par le biais d’une passerelle de paiement direct, dans ce cas Shopify stockera vos renseignements de carte de crédit. Ces renseignements sont chiffrés conformément à la norme de sécurité des données établie par l’industrie des cartes de paiement (norme PCI-DSS). Les renseignements relatifs à votre transaction d’achat sont conservés aussi longtemps que nécessaire pour finaliser votre commande. Une fois votre commande finalisée, les renseignements relatifs à la transaction d’achat sont supprimés.
+
+                        Toutes les passerelles de paiement direct respectent la norme PCI-DSS, gérée par le conseil des normes de sécurité PCI, qui résulte de l’effort conjoint d’entreprises telles que Visa, MasterCard, American Express et Discover.
+
+                        Les exigences de la norme PCI-DSS permettent d’assurer le traitement sécurisé des données de cartes de crédit par notre boutique et par ses prestataires de services.
+
+                        Pour plus d’informations, veuillez consulter les Conditions d’Utilisation de Shopify ici ou la Politique de Confidentialité ici.
+
+
+                        ARTICLE 5 – SERVICES FOURNIS PAR DES TIERS
+
+
+                        De manière générale, les fournisseurs tiers que nous utilisons vont uniquement recueillir, utiliser et divulguer vos renseignements dans la mesure du nécessaire pour pouvoir réaliser les services qu’ils nous fournissent.
+
+                        Cependant, certains tiers fournisseurs de services, comme les passerelles de paiement et autres processeurs de transactions de paiement, possèdent leurs propres politiques de confidentialité quant aux renseignements que nous sommes tenus de leur fournir pour vos transactions d’achat.
+
+                        En ce qui concerne ces fournisseurs, nous vous recommandons de lire attentivement leurs politiques de confidentialité pour que vous puissiez comprendre la manière dont ils traiteront vos renseignements personnels.
+
+                        Il ne faut pas oublier que certains fournisseurs peuvent être situés ou avoir des installations situées dans une juridiction différente de la vôtre ou de la nôtre. Donc si vous décidez de poursuivre une transaction qui requiert les services d’un fournisseur tiers, vos renseignements pourraient alors être régis par les lois de la juridiction dans laquelle ce fournisseur se situe ou celles de la juridiction dans laquelle ses installations sont situées.
+
+                        À titre d’exemple, si vous êtes situé au Canada et que votre transaction est traitée par une passerelle de paiement située aux États-Unis, les renseignements vous appartenant qui ont été utilisés pour conclure la transaction pourraient être divulgués en vertu de la législation des États-Unis, y compris le Patriot Act.
+
+                        Une fois que vous quittez le site de notre boutique ou que vous êtes redirigé vers le site web ou l’application d’un tiers, vous n’êtes plus régi par la présente Politique de Confidentialité ni par les Conditions Générales de Vente et d’Utilisation de notre site web.
+
+
+                        Liens
+
+                        Vous pourriez être amené à quitter notre site web en cliquant sur certains liens présents sur notre site. Nous n’assumons aucune responsabilité quant aux pratiques de confidentialité exercées par ces autres sites et vous recommandons de lire attentivement leurs politiques de confidentialité.
+
+
+                        ARTICLE 6 – SÉCURITÉ
+
+                        Pour protéger vos données personnelles, nous prenons des précautions raisonnables et suivons les meilleures pratiques de l’industrie pour nous assurer qu’elles ne soient pas perdues, détournées, consultées, divulguées, modifiées ou détruites de manière inappropriée.
+
+                        Si vous nous fournissez vos informations de carte de crédit, elles seront chiffrées par le biais de l’utilisation du protocole de sécurisation SSL et conservées avec un chiffrement de type AES-256. Bien qu’aucune méthode de transmission sur Internet ou de stockage électronique ne soit sûre à 100 %, nous suivons toutes les exigences de la norme PCI-DSS et mettons en œuvre des normes supplémentaires généralement reconnues par l’industrie.
+                        FICHIERS TÉMOINS (COOKIES)
+
+                        Voici une liste de fichiers témoins que nous utilisons. Nous les avons énumérés ici pour que vous ayez la possibilité de choisir si vous souhaitez les autoriser ou non.
+
+                        _session_id, identificateur unique de session, permet à Shopify de stocker les informations relatives à votre session (référent, page de renvoi, etc.).
+
+                        _shopify_visit, aucune donnée retenue, persiste pendant 30 minutes depuis la dernière visite. Utilisé par le système interne de suivi des statistiques du fournisseur de notre site web pour enregistrer le nombre de visites.
+
+                        _shopify_uniq, aucune donnée retenue, expire à minuit (selon l’emplacement du visiteur) le jour suivant. Calcule le nombre de visites d’une boutique par client unique.
+
+                        cart, identificateur unique, persiste pendant 2 semaines, stocke l’information relative à votre panier d’achat.
+
+                        _secure_session_id, identificateur unique de session
+
+                        storefront_digest, identificateur unique, indéfini si la boutique possède un mot de passe, il est utilisé pour savoir si le visiteur actuel a accès.
+
+
+                        ARTICLE 7 – ÂGE DE CONSENTEMENT
+
+                        En utilisant ce site, vous déclarez que vous avez au moins l’âge de la majorité dans votre État ou province de résidence, et que vous nous avez donné votre consentement pour permettre à toute personne d’âge mineur à votre charge d’utiliser ce site web.
+
+
+                        ARTICLE 8 – MODIFICATIONS APPORTÉES À LA PRÉSENTE POLITIQUE DE CONFIDENTIALITÉ
+
+                        Nous nous réservons le droit de modifier la présente politique de confidentialité à tout moment, donc veuillez s’il vous plait la consulter fréquemment. Les changements et les clarifications prendront effet immédiatement après leur publication sur le site web. Si nous apportons des changements au contenu de cette politique, nous vous aviserons ici qu’elle a été mise à jour, pour que vous sachiez quels renseignements nous recueillons, la manière dont nous les utilisons, et dans quelles circonstances nous les divulguons, s’il y a lieu de le faire.
+
+                        Si notre boutique fait l’objet d’une acquisition par ou d’une fusion avec une autre entreprise, vos renseignements pourraient être transférés aux nouveaux propriétaires pour que nous puissions continuer à vous vendre des produits.
+
+
+                        QUESTIONS ET COORDONNÉES
+
+                        Si vous souhaitez: accéder à, corriger, modifier ou supprimer toute information personnelle que nous avons à votre sujet, déposer une plainte, ou si vous souhaitez simplement avoir plus d’informations, contactez notre agent responsable des normes de confidentialité à eleadbase@gmail.com ou par courrier à TeraBois
+
+                        [Re: Agent des Normes de Confidentialité]
+
+                        [36 avenue francois mitterrand, Floirac, B, 33270, France]
+
+                        ----
+
                     </p>
                 </section>
             </main>
