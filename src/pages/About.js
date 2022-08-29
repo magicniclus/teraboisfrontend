@@ -54,8 +54,6 @@ const About = () => {
                 <p className="littleConnect">Déjà un projet avec nous ? <br/> <NavLink to='/connection'>Connectez-vous</NavLink></p>
 
                 <TitleAndText title="Nos Préstations" text="Toutes nos prestations sont réalisées par des équipes qualifiées spécifiquement dans leur domaine. Cette qualité de travail nous a permis d'être certifié par des organismes reconnus et encadrés par l'État. Comme pour toutes nos prestations, Terabois propose une réalisation sur mesure et clé en main. " />
-
-                {/* <Button link="/nous-contacter" value="En savoir plus"/> */}
     
                 <ImageAndText img="./img/isolationint.jpg" alt="Isolation murs Intérieurs" title="Isolation murs interieurs" text="Il est primordial d’isoler les murs de votre habitation afin d’améliorer votre confort thermique. Étant la partie de votre maison la plus en contact avec l’extérieur, si les murs ne sont pas isolés, cela cause des transferts de chaleur entre l’extérieur et l’intérieur du logement. "  sens="left"/>
 
