@@ -99,7 +99,7 @@ const HomePage = () => {
                     {/* <TitleAndText title="Maison TeraBois" text='“Notre savoir-faire au service de votre maison”' img="" /> */}
                     <Button value="Isoler mon logement" link="/nous-contacter" />
                     <section className="specialiste">
-                        <ImageAndText addClass="imageAndText" sens="left" img="./img/multitmaison.jpg" alt="isolation interieur" title="Spécialiste de l’économie d’énergie " text="TeraBois, spécialiste en économie d'énergie de l'habitat depuis plus de 10 ans, TeraBois est avant tout une entreprise familiale et artisanale." textTwo="Notre savoir faire nous a permis de nous piositionner comme l'entreprise leader dans son domaine." />
+                        <ImageAndText addClass="imageAndText" sens="left" folder="multitmaison" img="multitmaison" alt="isolation interieur" title="Spécialiste de l’économie d’énergie " text="TeraBois, spécialiste en économie d'énergie de l'habitat depuis plus de 10 ans, TeraBois est avant tout une entreprise familiale et artisanale." textTwo="Notre savoir faire nous a permis de nous piositionner comme l'entreprise leader dans son domaine." />
                     </section>
                     <NavLink to="/about" className="btnUn">En savoir plus</NavLink>
                 </div>
