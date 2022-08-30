@@ -119,6 +119,7 @@ const CheckBoxThree = () => {
             dispatch(addValueInArray())
             dispatch(addOld(date))
             setGlobalError(false)
+            window.scrollTo(0, 0);
         } else{
             setGlobalError(true)
         }

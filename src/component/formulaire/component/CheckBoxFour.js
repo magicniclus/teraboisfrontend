@@ -123,6 +123,7 @@ const CheckBoxFour = () => {
             dispatch(addValueInArray())
             dispatch(addMeasure(measure))
             setGlobalError(false)
+            window.scrollTo(0, 0);
         } else{
             setGlobalError(true)
         }

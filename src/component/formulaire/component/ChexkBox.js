@@ -114,6 +114,7 @@ const ChexkBox = () => {
             dispatch(addValueInArray())
             dispatch(addPrestation(prestation))
             setGlobalError(false)
+            window.scrollTo(0, 0);
         } else{
             setGlobalError(true)
         }

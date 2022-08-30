@@ -90,6 +90,7 @@ const CheckBoxTwo = () => {
            dispatch(addValueInArray()) 
            dispatch(addLodging(home))
            setGlobalError(false)
+           window.scrollTo(0, 0);
         } else {
             setGlobalError(true)
         }

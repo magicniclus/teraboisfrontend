@@ -167,6 +167,7 @@ const CheckBoxFive = () => {
            dispatch(addValueInArray()) 
            dispatch(addWhen(when))
            setGlobalError(false)
+           window.scrollTo(0, 0);
         } else{
             setGlobalError(true)
         }
