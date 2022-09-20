@@ -1,0 +1,63 @@
+.cookiesBar{
+    position: fixed;
+    bottom: 0vh;
+    right: 0;
+    width: 100vw;
+    background-color: #e4e8f3;
+    display: flex;
+    min-height: 5rem;
+    box-shadow: #212024;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        justify-content: space-around;   
+        min-height: 6rem;
+    }
+    h2{
+        margin-left: 2rem;
+        @media screen and (max-width: 768px) {
+            font-size: 15px;
+            text-align: center;
+            margin: 0;
+        }
+    }
+    .btnContainer{
+        margin-right: 2rem;
+        // width: 30vh;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        @media screen and (max-width: 768px) {
+            display: flex;
+            margin: 0;
+        }
+        button{
+            cursor: pointer;
+            min-width: 5rem;
+            min-height: 2rem;
+            border: none;
+            border-radius: 10px;
+        }
+        .validation{
+            background-color: #0097a6;
+            color: white;
+            transition: transform;
+            transition-duration: 0.4s;
+            margin-right: 1rem;
+        }
+        .validation:hover{
+            box-shadow: 0px 1px 15px -1px rgb(0 0 0 / 15%);
+            transform: scale(1.03);
+        }
+        .refusal{
+            color: #0097a6;
+            border: 1px solid #0097a6;
+        }
+    }
+}
+
+.isOk{
+    display: none;
+}
