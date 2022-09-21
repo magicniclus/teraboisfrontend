@@ -108,10 +108,28 @@
                     color: white;
                 }
             }
+            .allPrestation{
+                margin-top: 1rem;
+                text-align: center;
+                padding: 1rem;
+                span{
+                    text-align: center;
+                    color: white;
+                    font-size: 24px;
+                    font-weight: 300;
+                }
+                @media screen and (max-width: 425px) {
+                    margin-top: 2rem;
+                    span{
+                        color: #405A5C;
+                        font-size: 20px;
+                    }
+                }
+            }
         }
     
     
-        .description::after{
+        .titleAndText::after{
             content: "";
             width: 90%;
             border-bottom: 1px solid #405A5C;

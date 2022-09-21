@@ -13,6 +13,8 @@ const TitleAndText = (props) => {
     /* Assigning the value of the text prop to the text variable. */
     const text = props.text;
 
+    const prestation = props.prestation;
+
     /* Returning a React component that displays a title and text. */
     return (
         <div className='titleAndText'>
@@ -20,6 +22,21 @@ const TitleAndText = (props) => {
             <p className="description">
                 {text}
             </p>
+            <div className='allPrestation'>
+                {
+                    prestation.map((el, idx)=>{
+                        if(idx === prestation.length-1){
+                            return (
+                                <span>{el}</span>
+                            )
+                        }else{
+                            return(
+                                <span>{el} |&nbsp;</span>
+                            )
+                        }
+                    })
+                }
+            </div>
         </div>
     );
 };
