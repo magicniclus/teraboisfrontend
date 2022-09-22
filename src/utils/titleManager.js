@@ -21,7 +21,7 @@ export function handleTitle(){
                 document.title = "☀️☀️Isolation 1€"
             }
         } else if(window.location.pathname === "/nous-contacter"){
-            document.title = "TeraBois | Rendez-vous";
+            document.title = "TeraBois | Simulateur";
         }   
 
         if(window.location.pathname === "/connection"){

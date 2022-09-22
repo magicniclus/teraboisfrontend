@@ -103,7 +103,8 @@ const LandingPage = () => {useEffect(() => {
                             <div className="textContainer">
                                 <div className="title">
                                     <h1>Isolation</h1>
-                                    <p>Jusqu'à <span>10000€</span> d'aide</p>
+                                    <p>Jusqu'à <span>50000€</span> d'aide</p>
+                                    <p>Connaître mon élligibilité aux aides de l'état</p>
                                 </div>
                                 <div className="question">
                                     <DropDown
