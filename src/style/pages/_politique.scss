@@ -23,6 +23,57 @@
     section{
         max-width: 90%;
         margin-bottom: 40px;
+        p{
+            text-align: start;
+        }
+        h2{
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            display: flex;
+            flex-direction: column;
+        }
+        h2::before{
+            content: "";
+            width: 10%;
+            height: 1px;
+            background-color: #405A5C;
+            margin-bottom: 2rem;
+        }
+        .top{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .mid{
+            h2{
+                margin-top: 2rem;
+                margin-bottom: 1rem;
+                display: flex;
+                flex-direction: column;
+            }
+            h2::before{
+                content: "";
+                width: 10%;
+                height: 1px;
+                background-color: #405A5C;
+                margin-bottom: 2rem;
+            }
+            p{
+                margin-top: 1rem;
+                text-align: left;
+            }
+            ul{
+                li{
+                    list-style: none;
+                    margin-top: 1rem;
+                    list-style: outside;
+                }
+            }
+            h3{
+                margin-top: 2rem;
+            }
+        }
     }
     p{
         text-align: center;
