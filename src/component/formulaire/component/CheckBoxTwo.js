@@ -39,11 +39,11 @@ const CheckBoxTwo = () => {
                     setClickedOne(!clickedOne)
                     setClickedTwo(false)
                     if(home.length > -1){
-                        if(!home.includes("appartement") && !home.includes("immeuble")){
-                            sethome([...home, "appartement"])
-                        }else if (!home.includes("appartement") && home.includes("immeuble")){
-                            home.splice(home.indexOf("immeuble"), 1)
-                            sethome([...home, "appartement"])
+                        if(!home.includes("appartement") && !home.includes("maison")){
+                            sethome([...home, "maison"])
+                        }else if (!home.includes("maison") && home.includes("appartement")){
+                            home.splice(home.indexOf("appartement"), 1)
+                            sethome([...home, "maison"])
                         }
                     }
                     break;
@@ -52,11 +52,11 @@ const CheckBoxTwo = () => {
                     setClickedTwo(!clickedTwo)
                     setClickedOne(false)
                     if(home.length > -1){
-                        if(!home.includes("appartement") && !home.includes("immeuble")){
-                            sethome([...home, "immeuble"])
-                        }else if (!home.includes("immeuble") && home.includes("appartement")){
-                            home.splice(home.indexOf("appartement"), 1)
-                            sethome([...home, "immeuble"])
+                        if(!home.includes("appartement") && !home.includes("maison")){
+                            sethome([...home, "appartement"])
+                        }else if (!home.includes("appartement") && home.includes("maison")){
+                            home.splice(home.indexOf("maison"), 1)
+                            sethome([...home, "appartement"])
                         }
                     }
                     break;     

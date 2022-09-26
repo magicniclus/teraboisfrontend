@@ -10,9 +10,10 @@ import { prospectIsNotValid, removeProspect } from '../redux/actions/action';
 import { useState } from 'react';
 import { whatPage } from '../utils/titleManager';
 
-const LandingPage = () => {useEffect(() => {
-    window.scrollTo(0, 0); 
-}, [])
+const LandingPage = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0); 
+    }, [])
 
     /* It's a hook that allows you to dispatch actions to the Redux store. */
     const dispatch = useDispatch()
