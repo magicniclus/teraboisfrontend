@@ -11,6 +11,7 @@ import { useState } from "react";
 import Politique from "./pages/Politique";
 import Cookies from "./component/cookies/Cookies";
 import Condition from "./pages/Condition";
+import Remerciement from "./pages/Remerciement";
 
 /**
  * A function that returns a component.
@@ -36,6 +37,7 @@ function App() {
           <Route path="/conditions-generales" element={<Condition />} />
           <Route path="/politique-de-confidentialite" element={<Politique />}/>
           <Route path="/admin" element={<AdminPage />}/>
+          <Route path="/remerciement" element={<Remerciement />}/>
           <Route path="/*" element={<NotFound />}/>
         </Routes>
         <Footer />  
