@@ -4,8 +4,6 @@ import DropDown from '../component/DropDown';
 import Formulaire from '../component/formulaire/Formulaire';
 import LandingPageNavigation from '../component/LandingPageNavigation';
 import { useSelector, useDispatch } from 'react-redux';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faXmark } from '@fortawesome/free-solid-svg-icons'
 import { prospectIsNotValid, removeProspect } from '../redux/actions/action';
 import { useState } from 'react';
 import { whatPage } from '../utils/titleManager';
@@ -88,6 +86,7 @@ const LandingPage = () => {
         if(prospectValid){
             closeModal()
             navigate("/remerciement")
+            window.location.reload()
         }
     }, [prospectValid])
 
