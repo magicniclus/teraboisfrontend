@@ -573,8 +573,8 @@
                     }
                 }
                 .lastTitle{
-                    height: 0;
-                    animation-name: updateFormSize;
+                    height: 100%;
+                    // animation-name: updateFormSize;
                     animation-duration: 0.3s;
                     animation-timing-function: ease-out;
                     animation-fill-mode: forwards;
@@ -604,7 +604,7 @@
                         animation-name: apparitionText;
                         animation-duration: 0.3s;
                         animation-timing-function: ease-out;
-                        animation-delay: 1s;
+                        animation-delay: 0.3s;
                         animation-fill-mode: forwards;
                         @media screen and (max-width: 425px) {
                             margin-top: 20px;
@@ -654,8 +654,8 @@
                         }
                         .btnContainer{
                             opacity: 0;
-                            transform: translateX(100vw);
-                            animation-name: apparitionText, apparitionModal;
+                            // transform: translateX(100vw);
+                            animation-name: apparitionText;
                             animation-duration: 0.3s;
                             animation-timing-function: ease-out;
                             animation-delay: 0.3s;
@@ -911,10 +911,10 @@
 }
 
 @keyframes updateFormSize {
-    from{
-        height: 0%;
-    }
-    to{
-        height: 100%;
-    }
+    // from{
+    //     height: 0%;
+    // }
+    // to{
+    //     height: 100%;
+    // }
 }
