@@ -9,6 +9,7 @@ import { faXmark } from '@fortawesome/free-solid-svg-icons'
 import { prospectIsNotValid, removeProspect } from '../redux/actions/action';
 import { useState } from 'react';
 import { whatPage } from '../utils/titleManager';
+import { useNavigate } from 'react-router-dom';
 
 const LandingPage = () => {useEffect(() => {
     window.scrollTo(0, 0); 
@@ -16,6 +17,8 @@ const LandingPage = () => {useEffect(() => {
 
     /* It's a hook that allows you to dispatch actions to the Redux store. */
     const dispatch = useDispatch()
+
+    const navigate = useNavigate();
 
     const [upButtonOne, setUpButtonOne] = useState(false)
     const [upButtonTwo, setUpButtonTwo] = useState(false)
@@ -38,18 +41,18 @@ const LandingPage = () => {useEffect(() => {
      * It shows a modal when the user clicks on the submit button.
      * @returns The modal is being returned.
      */
-    const showModal = () => {
-        return (
-            <div className="modalValide">
-                <div className="Container">
-                        <NavLink to="/accueil" className="btnUn"><FontAwesomeIcon icon={faXmark} onClick={closeModal} /></NavLink>
-                    <div className='modalContainer'>
-                        <h3>Merci, <br /> nous vous contacterons dans les 24/48h.</h3>
-                    </div>
-                </div>
-            </div>
-        )
-    }
+    // const showModal = () => {
+    //     return (
+    //         // <div className="modalValide">
+    //         //     <div className="Container">
+    //         //             <NavLink to="/accueil" className="btnUn"><FontAwesomeIcon icon={faXmark} onClick={closeModal} /></NavLink>
+    //         //         <div className='modalContainer'>
+    //         //             <h3>Merci, <br /> nous vous contacterons dans les 24/48h.</h3>
+    //         //         </div>
+    //         //     </div>
+    //         // </div>
+    //     )
+    // }
 
     const handleButtonOne = () => {
         setUpButtonTwo(false)
@@ -80,10 +83,17 @@ const LandingPage = () => {useEffect(() => {
     /* It's a hook that allows you to subscribe to Redux store updates. */
     const prospectValid = useSelector(state => state.prospectValid);
 
+    useEffect(()=>{
+        if(prospectValid){
+            closeModal()
+            navigate("/remerciement")
+        }
+    }, [prospectValid])
+
     /* It's a function that allows to change the title of the page depending on the page you are on. */
     return (
         <>
-            {prospectValid ? showModal() : null}
+            {/* {prospectValid ? showModal() : null} */}
             <header>
                 <LandingPageNavigation />
             </header>
