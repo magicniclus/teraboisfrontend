@@ -74,7 +74,15 @@ export function handleTitle(){
             document.title= "TeraBois | Conditions-generales";
         }
 
-        if(window.location.pathname !== "/nous-contacter" && window.location.pathname !== "/connection" && window.location.pathname !== "/accueil" && window.location.pathname !== "/about" && window.location.pathname !== "/admin" && window.location.pathname !== "/politique-de-confidentialite" && window.location.pathname !=="/conditions-generales" && window.location.pathname !== "/"){
+        if(window.location.pathname === "/remerciement"){
+            if(document.hidden){
+                document.title= "TeraBois | Remerciement";
+            }
+            document.title= "TeraBois | Remerciement";
+        }
+
+
+        if(window.location.pathname !== "/nous-contacter" && window.location.pathname !== "/connection" && window.location.pathname !== "/accueil" && window.location.pathname !== "/about" && window.location.pathname !== "/admin" && window.location.pathname !== "/politique-de-confidentialite" && window.location.pathname !=="/conditions-generales" && window.location.pathname !== "/" && window.location.pathname !== "/remerciement"){
             if(document.hidden){
                 document.title= "TeraBois | Page 404";
             }
