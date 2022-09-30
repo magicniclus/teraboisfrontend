@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { isValidElement } from 'react';
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { isLoading, addUser, isNotLoading, prospectValid } from '../../../redux/actions/action';
