@@ -11,7 +11,7 @@ import { useNavigate } from 'react-router-dom';
 
 const LandingPage = () => {
     useEffect(() => {
-        window.scrollTo(0, 0); 
+        window.scrollTo(0, 0);
     }, [])
 
     /* It's a hook that allows you to dispatch actions to the Redux store. */
@@ -82,11 +82,13 @@ const LandingPage = () => {
     /* It's a hook that allows you to subscribe to Redux store updates. */
     const prospectValid = useSelector(state => state.prospectValid);
 
-    useEffect(()=>{
-        if(prospectValid){
+    useEffect(() => {
+        if (prospectValid) {
             closeModal()
             navigate("/remerciement")
-            window.location.reload()
+            setTimeout(() => {
+                window.location.reload()
+            }, 1000)
         }
     }, [prospectValid])
 
@@ -160,7 +162,7 @@ const LandingPage = () => {
                     <section className="rightContainer">
                         <div className="container">
                             <Formulaire />
-                            <div className={state.valueOfArray === 6 ? "containerBottom lastContainerBottom": "containerBottom" } >
+                            <div className={state.valueOfArray === 6 ? "containerBottom lastContainerBottom" : "containerBottom"} >
                                 <h3>+ de <span>10</span> ans <br /> d'experience</h3>
                                 <h3>RDV en <br /><span>24</span>/<span>48h</span></h3>
                                 <h3>+ de <span>3000 </span><br />réalisations</h3>
