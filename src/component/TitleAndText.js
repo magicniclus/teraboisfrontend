@@ -16,6 +16,15 @@ const TitleAndText = (props) => {
 
   const prestation = props.prestation;
 
+  const updateSusTitle = () => {
+    return (
+      <div className="qualibat">
+        <img src="./img/logoRGE.png" alt="RGE certification" />
+        <h3>{susTitle}</h3>
+      </div>
+    );
+  };
+
   /* Returning a React component that displays a title and text. */
   return (
     <div className="titleAndText">
@@ -32,7 +41,7 @@ const TitleAndText = (props) => {
             })
           : null}
       </div>
-      {susTitle ? <h3 className="qualibat">{susTitle}</h3> : null}
+      {susTitle ? updateSusTitle() : null}
     </div>
   );
 };
