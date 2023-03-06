@@ -98,7 +98,7 @@ const HomePage = () => {
               "Isolation murs exterieurs",
             ]}
             img="./img/test/house/maisonbois.jpg"
-            susTitle="Entreprise Qualibat RGE"
+            susTitle="Entreprise Certifiée RGE Qualibat"
           />
           {/* <TitleAndText title="Maison TeraBois" text='“Notre savoir-faire au service de votre maison”' img="" /> */}
           <Button value="Isoler mon logement" link="/nous-contacter" />
